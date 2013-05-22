@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Show me the numbers</title>
+		<script type="text/javascript" src="../d3/d3.js"></script>
+		<script type="text/javascript" src="../d3/lib/colorbrewer/colorbrewer.js"></script>
+		<script type="text/javascript" src="show-me.js"></script>
+		<style type="text/css">
+            html {
+				font-family: sans-serif;
+				font-size: 14px;                
+            }
+            .legend{
+                font-size: 12px;
+            }
+            path{
+                stroke: black;
+            }
+            #wijk, #map{
+                float:left;
+            }
+            .axis path,
+			.axis line {
+				fill: none;
+				stroke: black;
+				shape-rendering: crispEdges;
+			}
+			.axis text {
+				font-family: sans-serif;
+				font-size: 11px;
+            }
+                           
+		</style>
+	</head>
+	<body>        
+		<script>
+            d3.json("data/data.js", function(data) {
+                console.log(data);
+            });
+		</script>
+ 
+ 	</body>
+</html>
