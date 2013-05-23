@@ -1,60 +1,39 @@
-function draw() {
-    var margin = {top: 20, right: 20, bottom: 30, left: 50},
-        width = 960 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+function monthlySales() {
+//Examples: http://www.jeromecukier.net/stuff/data%20example/data-example4.html
+//and: http://bl.ocks.org/mbostock/3883245
+var width = 500,
+    height = 500, 
+    margin = 50;
 
-    var parseDate = d3.time.format("%Y%m%d").parse;
+var cwidth=100,cheight=100,cmargin=5,maxr=5;
 
-    var x = d3.time.scale()
-        .range([0, width]);
+var svg=d3.select("body").append("svg");
+var x=d3.scale.linear().domain([0,5]).range([cmargin,cwidth-margin]);
+var y=d3.scale.linear().domain([-10,10]).range([cheight-cmargin,cmargin]);
 
-    var y = d3.scale.linear()
-        .range([height, 0]);
+d3.csv("data/datafile.csv",function(csv) {
 
-    var xAxis = d3.svg.axis()
-        .scale(x)
-        .orient("bottom");
+csv = csv.filter(function (el) {
+  return el.Measure === "Sales"});
+console.log(csv);
 
-    var yAxis = d3.svg.axis()
-        .scale(y)
-        .orient("left");
-    
-    var line = d3.svg.line()
-        .x(function(d) { return x(d.data.date); })
-        .y(function(d) { return y(d.data.value); });
+var data=d3.nest()
+    .key(function(d) {return d.Region;})
+    .key(function(d) {return d.Category;})
+    .key(function(d) {return d.Day;})
+    .sortKeys(d3.ascending)
+    .rollup(function(d) {return {Value:d3.sum(d,function(g) {return +g.Value;})};})
+    .entries(csv);
+        
+console.log(data);
 
-    var svg = d3.select("body").append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-      .append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+  // One cell for each region
+  var g=svg.selectAll("g").data(data).enter()
+    .append("g")
+    .attr("transform",function(d,i) {return "translate(0,"+(cheight*i)+")";});
 
-    d3.json("data/datafile.js", function(error, data) {
-      data.data.forEach(function(d) {
-        d.date = parseDate(d.date);
-      });
+   
+})
 
-      x.domain(d3.extent(data, function(d) { return d.data.date; }));
-      y.domain(d3.extent(data, function(d) { return d.data.value; }));
-
-      svg.append("g")
-          .attr("class", "x axis")
-          .attr("transform", "translate(0," + height + ")")
-          .call(xAxis);
-
-      svg.append("g")
-          .attr("class", "y axis")
-          .call(yAxis)
-        .append("text")
-          .attr("transform", "rotate(-90)")
-          .attr("y", 6)
-          .attr("dy", ".71em")
-          .style("text-anchor", "end")
-          .text("Price ($)");
-
-      svg.append("path")
-          .datum(data)
-          .attr("class", "line")
-          .attr("d", line);
-    });
 }
+

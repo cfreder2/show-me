@@ -1,865 +1,865 @@
-Region,Category,Product,Measure,Date,Value
-East,Coffee,Sumatra,Plan,20120101, 18.0
+Region,Category,Product,Measure,Day,Value
+East,Coffee,Sumatra,Plan,20120101, 12.0
 East,Coffee,Sumatra,Plan,20120201, 38.0
-East,Coffee,Sumatra,Plan,20120301, 73.0
-East,Coffee,Sumatra,Plan,20120401, 17.0
-East,Coffee,Sumatra,Plan,20120501, 10.0
-East,Coffee,Sumatra,Plan,20120601, 14.0
-East,Coffee,Sumatra,Plan,20120701, 12.0
-East,Coffee,Sumatra,Plan,20120801, 78.0
-East,Coffee,Sumatra,Plan,20120901, 67.0
-East,Coffee,Sumatra,Plan,20121001, 52.0
-East,Coffee,Sumatra,Plan,20121101, 30.0
-East,Coffee,Sumatra,Plan,20121201, 75.0
-East,Coffee,Sumatra,Sales,20120101, 18.0
-East,Coffee,Sumatra,Sales,20120201, 38.0
-East,Coffee,Sumatra,Sales,20120301, 73.0
-East,Coffee,Sumatra,Sales,20120401, 17.0
-East,Coffee,Sumatra,Sales,20120501, 10.0
-East,Coffee,Sumatra,Sales,20120601, 14.0
-East,Coffee,Sumatra,Sales,20120701, 12.0
-East,Coffee,Sumatra,Sales,20120801, 78.0
-East,Coffee,Sumatra,Sales,20120901, 67.0
-East,Coffee,Sumatra,Sales,20121001, 52.0
-East,Coffee,Sumatra,Sales,20121101, 30.0
-East,Coffee,Sumatra,Sales,20121201, 75.0
-East,Coffee,French Roast,Plan,20120101, 18.0
-East,Coffee,French Roast,Plan,20120201, 38.0
-East,Coffee,French Roast,Plan,20120301, 73.0
-East,Coffee,French Roast,Plan,20120401, 17.0
-East,Coffee,French Roast,Plan,20120501, 10.0
-East,Coffee,French Roast,Plan,20120601, 14.0
-East,Coffee,French Roast,Plan,20120701, 12.0
-East,Coffee,French Roast,Plan,20120801, 78.0
-East,Coffee,French Roast,Plan,20120901, 67.0
-East,Coffee,French Roast,Plan,20121001, 52.0
-East,Coffee,French Roast,Plan,20121101, 30.0
-East,Coffee,French Roast,Plan,20121201, 75.0
-East,Coffee,French Roast,Sales,20120101, 18.0
-East,Coffee,French Roast,Sales,20120201, 38.0
-East,Coffee,French Roast,Sales,20120301, 73.0
-East,Coffee,French Roast,Sales,20120401, 17.0
-East,Coffee,French Roast,Sales,20120501, 10.0
-East,Coffee,French Roast,Sales,20120601, 14.0
-East,Coffee,French Roast,Sales,20120701, 12.0
-East,Coffee,French Roast,Sales,20120801, 78.0
-East,Coffee,French Roast,Sales,20120901, 67.0
-East,Coffee,French Roast,Sales,20121001, 52.0
-East,Coffee,French Roast,Sales,20121101, 30.0
-East,Coffee,French Roast,Sales,20121201, 75.0
-East,Espresso,Mocha-Java,Plan,20120101, 18.0
-East,Espresso,Mocha-Java,Plan,20120201, 38.0
-East,Espresso,Mocha-Java,Plan,20120301, 73.0
-East,Espresso,Mocha-Java,Plan,20120401, 17.0
-East,Espresso,Mocha-Java,Plan,20120501, 10.0
-East,Espresso,Mocha-Java,Plan,20120601, 14.0
-East,Espresso,Mocha-Java,Plan,20120701, 12.0
-East,Espresso,Mocha-Java,Plan,20120801, 78.0
-East,Espresso,Mocha-Java,Plan,20120901, 67.0
-East,Espresso,Mocha-Java,Plan,20121001, 52.0
-East,Espresso,Mocha-Java,Plan,20121101, 30.0
-East,Espresso,Mocha-Java,Plan,20121201, 75.0
-East,Espresso,Mocha-Java,Sales,20120101, 18.0
-East,Espresso,Mocha-Java,Sales,20120201, 38.0
-East,Espresso,Mocha-Java,Sales,20120301, 73.0
-East,Espresso,Mocha-Java,Sales,20120401, 17.0
-East,Espresso,Mocha-Java,Sales,20120501, 10.0
-East,Espresso,Mocha-Java,Sales,20120601, 14.0
-East,Espresso,Mocha-Java,Sales,20120701, 12.0
-East,Espresso,Mocha-Java,Sales,20120801, 78.0
-East,Espresso,Mocha-Java,Sales,20120901, 67.0
-East,Espresso,Mocha-Java,Sales,20121001, 52.0
-East,Espresso,Mocha-Java,Sales,20121101, 30.0
-East,Espresso,Mocha-Java,Sales,20121201, 75.0
-East,Espresso,Garuda,Plan,20120101, 18.0
-East,Espresso,Garuda,Plan,20120201, 38.0
-East,Espresso,Garuda,Plan,20120301, 73.0
-East,Espresso,Garuda,Plan,20120401, 17.0
-East,Espresso,Garuda,Plan,20120501, 10.0
-East,Espresso,Garuda,Plan,20120601, 14.0
-East,Espresso,Garuda,Plan,20120701, 12.0
-East,Espresso,Garuda,Plan,20120801, 78.0
-East,Espresso,Garuda,Plan,20120901, 67.0
-East,Espresso,Garuda,Plan,20121001, 52.0
-East,Espresso,Garuda,Plan,20121101, 30.0
-East,Espresso,Garuda,Plan,20121201, 75.0
-East,Espresso,Garuda,Sales,20120101, 18.0
-East,Espresso,Garuda,Sales,20120201, 38.0
-East,Espresso,Garuda,Sales,20120301, 73.0
-East,Espresso,Garuda,Sales,20120401, 17.0
-East,Espresso,Garuda,Sales,20120501, 10.0
-East,Espresso,Garuda,Sales,20120601, 14.0
-East,Espresso,Garuda,Sales,20120701, 12.0
-East,Espresso,Garuda,Sales,20120801, 78.0
-East,Espresso,Garuda,Sales,20120901, 67.0
-East,Espresso,Garuda,Sales,20121001, 52.0
-East,Espresso,Garuda,Sales,20121101, 30.0
-East,Espresso,Garuda,Sales,20121201, 75.0
-East,Espresso,Italian Roast,Plan,20120101, 18.0
-East,Espresso,Italian Roast,Plan,20120201, 38.0
-East,Espresso,Italian Roast,Plan,20120301, 73.0
-East,Espresso,Italian Roast,Plan,20120401, 17.0
-East,Espresso,Italian Roast,Plan,20120501, 10.0
-East,Espresso,Italian Roast,Plan,20120601, 14.0
-East,Espresso,Italian Roast,Plan,20120701, 12.0
-East,Espresso,Italian Roast,Plan,20120801, 78.0
-East,Espresso,Italian Roast,Plan,20120901, 67.0
-East,Espresso,Italian Roast,Plan,20121001, 52.0
-East,Espresso,Italian Roast,Plan,20121101, 30.0
-East,Espresso,Italian Roast,Plan,20121201, 75.0
-East,Espresso,Italian Roast,Sales,20120101, 18.0
-East,Espresso,Italian Roast,Sales,20120201, 38.0
-East,Espresso,Italian Roast,Sales,20120301, 73.0
-East,Espresso,Italian Roast,Sales,20120401, 17.0
-East,Espresso,Italian Roast,Sales,20120501, 10.0
-East,Espresso,Italian Roast,Sales,20120601, 14.0
-East,Espresso,Italian Roast,Sales,20120701, 12.0
-East,Espresso,Italian Roast,Sales,20120801, 78.0
-East,Espresso,Italian Roast,Sales,20120901, 67.0
-East,Espresso,Italian Roast,Sales,20121001, 52.0
-East,Espresso,Italian Roast,Sales,20121101, 30.0
-East,Espresso,Italian Roast,Sales,20121201, 75.0
-East,Espresso,Arabian,Plan,20120101, 18.0
-East,Espresso,Arabian,Plan,20120201, 38.0
-East,Espresso,Arabian,Plan,20120301, 73.0
-East,Espresso,Arabian,Plan,20120401, 17.0
-East,Espresso,Arabian,Plan,20120501, 10.0
-East,Espresso,Arabian,Plan,20120601, 14.0
-East,Espresso,Arabian,Plan,20120701, 12.0
-East,Espresso,Arabian,Plan,20120801, 78.0
-East,Espresso,Arabian,Plan,20120901, 67.0
-East,Espresso,Arabian,Plan,20121001, 52.0
-East,Espresso,Arabian,Plan,20121101, 30.0
-East,Espresso,Arabian,Plan,20121201, 75.0
-East,Espresso,Arabian,Sales,20120101, 18.0
-East,Espresso,Arabian,Sales,20120201, 38.0
-East,Espresso,Arabian,Sales,20120301, 73.0
-East,Espresso,Arabian,Sales,20120401, 17.0
-East,Espresso,Arabian,Sales,20120501, 10.0
-East,Espresso,Arabian,Sales,20120601, 14.0
-East,Espresso,Arabian,Sales,20120701, 12.0
-East,Espresso,Arabian,Sales,20120801, 78.0
-East,Espresso,Arabian,Sales,20120901, 67.0
-East,Espresso,Arabian,Sales,20121001, 52.0
-East,Espresso,Arabian,Sales,20121101, 30.0
-East,Espresso,Arabian,Sales,20121201, 75.0
-East,Herbal Tea,Lemon,Plan,20120101, 18.0
-East,Herbal Tea,Lemon,Plan,20120201, 38.0
-East,Herbal Tea,Lemon,Plan,20120301, 73.0
-East,Herbal Tea,Lemon,Plan,20120401, 17.0
-East,Herbal Tea,Lemon,Plan,20120501, 10.0
-East,Herbal Tea,Lemon,Plan,20120601, 14.0
-East,Herbal Tea,Lemon,Plan,20120701, 12.0
-East,Herbal Tea,Lemon,Plan,20120801, 78.0
-East,Herbal Tea,Lemon,Plan,20120901, 67.0
-East,Herbal Tea,Lemon,Plan,20121001, 52.0
-East,Herbal Tea,Lemon,Plan,20121101, 30.0
-East,Herbal Tea,Lemon,Plan,20121201, 75.0
-East,Herbal Tea,Lemon,Sales,20120101, 18.0
-East,Herbal Tea,Lemon,Sales,20120201, 38.0
-East,Herbal Tea,Lemon,Sales,20120301, 73.0
-East,Herbal Tea,Lemon,Sales,20120401, 17.0
-East,Herbal Tea,Lemon,Sales,20120501, 10.0
-East,Herbal Tea,Lemon,Sales,20120601, 14.0
-East,Herbal Tea,Lemon,Sales,20120701, 12.0
-East,Herbal Tea,Lemon,Sales,20120801, 78.0
-East,Herbal Tea,Lemon,Sales,20120901, 67.0
-East,Herbal Tea,Lemon,Sales,20121001, 52.0
-East,Herbal Tea,Lemon,Sales,20121101, 30.0
-East,Herbal Tea,Lemon,Sales,20121201, 75.0
-East,Herbal Tea,Charmomile,Plan,20120101, 18.0
-East,Herbal Tea,Charmomile,Plan,20120201, 38.0
-East,Herbal Tea,Charmomile,Plan,20120301, 73.0
-East,Herbal Tea,Charmomile,Plan,20120401, 17.0
-East,Herbal Tea,Charmomile,Plan,20120501, 10.0
-East,Herbal Tea,Charmomile,Plan,20120601, 14.0
-East,Herbal Tea,Charmomile,Plan,20120701, 12.0
-East,Herbal Tea,Charmomile,Plan,20120801, 78.0
-East,Herbal Tea,Charmomile,Plan,20120901, 67.0
-East,Herbal Tea,Charmomile,Plan,20121001, 52.0
-East,Herbal Tea,Charmomile,Plan,20121101, 30.0
-East,Herbal Tea,Charmomile,Plan,20121201, 75.0
-East,Herbal Tea,Charmomile,Sales,20120101, 18.0
-East,Herbal Tea,Charmomile,Sales,20120201, 38.0
-East,Herbal Tea,Charmomile,Sales,20120301, 73.0
-East,Herbal Tea,Charmomile,Sales,20120401, 17.0
-East,Herbal Tea,Charmomile,Sales,20120501, 10.0
-East,Herbal Tea,Charmomile,Sales,20120601, 14.0
-East,Herbal Tea,Charmomile,Sales,20120701, 12.0
-East,Herbal Tea,Charmomile,Sales,20120801, 78.0
-East,Herbal Tea,Charmomile,Sales,20120901, 67.0
-East,Herbal Tea,Charmomile,Sales,20121001, 52.0
-East,Herbal Tea,Charmomile,Sales,20121101, 30.0
-East,Herbal Tea,Charmomile,Sales,20121201, 75.0
-East,Herbal Tea,Mint,Plan,20120101, 18.0
-East,Herbal Tea,Mint,Plan,20120201, 38.0
-East,Herbal Tea,Mint,Plan,20120301, 73.0
-East,Herbal Tea,Mint,Plan,20120401, 17.0
-East,Herbal Tea,Mint,Plan,20120501, 10.0
-East,Herbal Tea,Mint,Plan,20120601, 14.0
-East,Herbal Tea,Mint,Plan,20120701, 12.0
-East,Herbal Tea,Mint,Plan,20120801, 78.0
-East,Herbal Tea,Mint,Plan,20120901, 67.0
-East,Herbal Tea,Mint,Plan,20121001, 52.0
-East,Herbal Tea,Mint,Plan,20121101, 30.0
-East,Herbal Tea,Mint,Plan,20121201, 75.0
-East,Herbal Tea,Mint,Sales,20120101, 18.0
-East,Herbal Tea,Mint,Sales,20120201, 38.0
-East,Herbal Tea,Mint,Sales,20120301, 73.0
-East,Herbal Tea,Mint,Sales,20120401, 17.0
-East,Herbal Tea,Mint,Sales,20120501, 10.0
-East,Herbal Tea,Mint,Sales,20120601, 14.0
-East,Herbal Tea,Mint,Sales,20120701, 12.0
-East,Herbal Tea,Mint,Sales,20120801, 78.0
-East,Herbal Tea,Mint,Sales,20120901, 67.0
-East,Herbal Tea,Mint,Sales,20121001, 52.0
+East,Coffee,Sumatra,Plan,20120301, 35.0
+East,Coffee,Sumatra,Plan,20120401, 71.0
+East,Coffee,Sumatra,Plan,20120501, 28.0
+East,Coffee,Sumatra,Plan,20120601, 6.0
+East,Coffee,Sumatra,Plan,20120701, 49.0
+East,Coffee,Sumatra,Plan,20120801, 5.0
+East,Coffee,Sumatra,Plan,20120901, 99.0
+East,Coffee,Sumatra,Plan,20121001, 70.0
+East,Coffee,Sumatra,Plan,20121101, 52.0
+East,Coffee,Sumatra,Plan,20121201, 62.0
+East,Coffee,Sumatra,Sales,20120101, 16.0
+East,Coffee,Sumatra,Sales,20120201, 76.0
+East,Coffee,Sumatra,Sales,20120301, 74.0
+East,Coffee,Sumatra,Sales,20120401, 45.0
+East,Coffee,Sumatra,Sales,20120501, 76.0
+East,Coffee,Sumatra,Sales,20120601, 50.0
+East,Coffee,Sumatra,Sales,20120701, 47.0
+East,Coffee,Sumatra,Sales,20120801, 56.0
+East,Coffee,Sumatra,Sales,20120901, 8.0
+East,Coffee,Sumatra,Sales,20121001, 38.0
+East,Coffee,Sumatra,Sales,20121101, 90.0
+East,Coffee,Sumatra,Sales,20121201, 79.0
+East,Coffee,French Roast,Plan,20120101, 85.0
+East,Coffee,French Roast,Plan,20120201, 7.0
+East,Coffee,French Roast,Plan,20120301, 94.0
+East,Coffee,French Roast,Plan,20120401, 76.0
+East,Coffee,French Roast,Plan,20120501, 75.0
+East,Coffee,French Roast,Plan,20120601, 30.0
+East,Coffee,French Roast,Plan,20120701, 55.0
+East,Coffee,French Roast,Plan,20120801, 51.0
+East,Coffee,French Roast,Plan,20120901, 65.0
+East,Coffee,French Roast,Plan,20121001, 7.0
+East,Coffee,French Roast,Plan,20121101, 68.0
+East,Coffee,French Roast,Plan,20121201, 93.0
+East,Coffee,French Roast,Sales,20120101, 38.0
+East,Coffee,French Roast,Sales,20120201, 8.0
+East,Coffee,French Roast,Sales,20120301, 45.0
+East,Coffee,French Roast,Sales,20120401, 34.0
+East,Coffee,French Roast,Sales,20120501, 74.0
+East,Coffee,French Roast,Sales,20120601, 35.0
+East,Coffee,French Roast,Sales,20120701, 70.0
+East,Coffee,French Roast,Sales,20120801, 55.0
+East,Coffee,French Roast,Sales,20120901, 62.0
+East,Coffee,French Roast,Sales,20121001, 47.0
+East,Coffee,French Roast,Sales,20121101, 11.0
+East,Coffee,French Roast,Sales,20121201, 22.0
+East,Espresso,Mocha-Java,Plan,20120101, 83.0
+East,Espresso,Mocha-Java,Plan,20120201, 27.0
+East,Espresso,Mocha-Java,Plan,20120301, 61.0
+East,Espresso,Mocha-Java,Plan,20120401, 68.0
+East,Espresso,Mocha-Java,Plan,20120501, 16.0
+East,Espresso,Mocha-Java,Plan,20120601, 67.0
+East,Espresso,Mocha-Java,Plan,20120701, 75.0
+East,Espresso,Mocha-Java,Plan,20120801, 17.0
+East,Espresso,Mocha-Java,Plan,20120901, 75.0
+East,Espresso,Mocha-Java,Plan,20121001, 94.0
+East,Espresso,Mocha-Java,Plan,20121101, 78.0
+East,Espresso,Mocha-Java,Plan,20121201, 5.0
+East,Espresso,Mocha-Java,Sales,20120101, 83.0
+East,Espresso,Mocha-Java,Sales,20120201, 1.0
+East,Espresso,Mocha-Java,Sales,20120301, 11.0
+East,Espresso,Mocha-Java,Sales,20120401, 66.0
+East,Espresso,Mocha-Java,Sales,20120501, 73.0
+East,Espresso,Mocha-Java,Sales,20120601, 16.0
+East,Espresso,Mocha-Java,Sales,20120701, 79.0
+East,Espresso,Mocha-Java,Sales,20120801, 55.0
+East,Espresso,Mocha-Java,Sales,20120901, 37.0
+East,Espresso,Mocha-Java,Sales,20121001, 32.0
+East,Espresso,Mocha-Java,Sales,20121101, 13.0
+East,Espresso,Mocha-Java,Sales,20121201, 1.0
+East,Espresso,Garuda,Plan,20120101, 89.0
+East,Espresso,Garuda,Plan,20120201, 90.0
+East,Espresso,Garuda,Plan,20120301, 60.0
+East,Espresso,Garuda,Plan,20120401, 31.0
+East,Espresso,Garuda,Plan,20120501, 3.0
+East,Espresso,Garuda,Plan,20120601, 64.0
+East,Espresso,Garuda,Plan,20120701, 45.0
+East,Espresso,Garuda,Plan,20120801, 73.0
+East,Espresso,Garuda,Plan,20120901, 60.0
+East,Espresso,Garuda,Plan,20121001, 67.0
+East,Espresso,Garuda,Plan,20121101, 2.0
+East,Espresso,Garuda,Plan,20121201, 85.0
+East,Espresso,Garuda,Sales,20120101, 56.0
+East,Espresso,Garuda,Sales,20120201, 6.0
+East,Espresso,Garuda,Sales,20120301, 22.0
+East,Espresso,Garuda,Sales,20120401, 0.0
+East,Espresso,Garuda,Sales,20120501, 14.0
+East,Espresso,Garuda,Sales,20120601, 7.0
+East,Espresso,Garuda,Sales,20120701, 73.0
+East,Espresso,Garuda,Sales,20120801, 18.0
+East,Espresso,Garuda,Sales,20120901, 51.0
+East,Espresso,Garuda,Sales,20121001, 71.0
+East,Espresso,Garuda,Sales,20121101, 82.0
+East,Espresso,Garuda,Sales,20121201, 61.0
+East,Espresso,Italian Roast,Plan,20120101, 83.0
+East,Espresso,Italian Roast,Plan,20120201, 41.0
+East,Espresso,Italian Roast,Plan,20120301, 86.0
+East,Espresso,Italian Roast,Plan,20120401, 79.0
+East,Espresso,Italian Roast,Plan,20120501, 76.0
+East,Espresso,Italian Roast,Plan,20120601, 43.0
+East,Espresso,Italian Roast,Plan,20120701, 24.0
+East,Espresso,Italian Roast,Plan,20120801, 6.0
+East,Espresso,Italian Roast,Plan,20120901, 54.0
+East,Espresso,Italian Roast,Plan,20121001, 19.0
+East,Espresso,Italian Roast,Plan,20121101, 79.0
+East,Espresso,Italian Roast,Plan,20121201, 81.0
+East,Espresso,Italian Roast,Sales,20120101, 68.0
+East,Espresso,Italian Roast,Sales,20120201, 45.0
+East,Espresso,Italian Roast,Sales,20120301, 34.0
+East,Espresso,Italian Roast,Sales,20120401, 69.0
+East,Espresso,Italian Roast,Sales,20120501, 38.0
+East,Espresso,Italian Roast,Sales,20120601, 76.0
+East,Espresso,Italian Roast,Sales,20120701, 73.0
+East,Espresso,Italian Roast,Sales,20120801, 90.0
+East,Espresso,Italian Roast,Sales,20120901, 37.0
+East,Espresso,Italian Roast,Sales,20121001, 8.0
+East,Espresso,Italian Roast,Sales,20121101, 43.0
+East,Espresso,Italian Roast,Sales,20121201, 99.0
+East,Espresso,Arabian,Plan,20120101, 73.0
+East,Espresso,Arabian,Plan,20120201, 58.0
+East,Espresso,Arabian,Plan,20120301, 29.0
+East,Espresso,Arabian,Plan,20120401, 60.0
+East,Espresso,Arabian,Plan,20120501, 87.0
+East,Espresso,Arabian,Plan,20120601, 46.0
+East,Espresso,Arabian,Plan,20120701, 50.0
+East,Espresso,Arabian,Plan,20120801, 48.0
+East,Espresso,Arabian,Plan,20120901, 14.0
+East,Espresso,Arabian,Plan,20121001, 77.0
+East,Espresso,Arabian,Plan,20121101, 4.0
+East,Espresso,Arabian,Plan,20121201, 13.0
+East,Espresso,Arabian,Sales,20120101, 39.0
+East,Espresso,Arabian,Sales,20120201, 69.0
+East,Espresso,Arabian,Sales,20120301, 32.0
+East,Espresso,Arabian,Sales,20120401, 82.0
+East,Espresso,Arabian,Sales,20120501, 63.0
+East,Espresso,Arabian,Sales,20120601, 93.0
+East,Espresso,Arabian,Sales,20120701, 75.0
+East,Espresso,Arabian,Sales,20120801, 3.0
+East,Espresso,Arabian,Sales,20120901, 71.0
+East,Espresso,Arabian,Sales,20121001, 86.0
+East,Espresso,Arabian,Sales,20121101, 19.0
+East,Espresso,Arabian,Sales,20121201, 2.0
+East,Herbal Tea,Lemon,Plan,20120101, 47.0
+East,Herbal Tea,Lemon,Plan,20120201, 40.0
+East,Herbal Tea,Lemon,Plan,20120301, 93.0
+East,Herbal Tea,Lemon,Plan,20120401, 98.0
+East,Herbal Tea,Lemon,Plan,20120501, 57.0
+East,Herbal Tea,Lemon,Plan,20120601, 96.0
+East,Herbal Tea,Lemon,Plan,20120701, 4.0
+East,Herbal Tea,Lemon,Plan,20120801, 91.0
+East,Herbal Tea,Lemon,Plan,20120901, 50.0
+East,Herbal Tea,Lemon,Plan,20121001, 53.0
+East,Herbal Tea,Lemon,Plan,20121101, 66.0
+East,Herbal Tea,Lemon,Plan,20121201, 77.0
+East,Herbal Tea,Lemon,Sales,20120101, 60.0
+East,Herbal Tea,Lemon,Sales,20120201, 58.0
+East,Herbal Tea,Lemon,Sales,20120301, 12.0
+East,Herbal Tea,Lemon,Sales,20120401, 26.0
+East,Herbal Tea,Lemon,Sales,20120501, 48.0
+East,Herbal Tea,Lemon,Sales,20120601, 47.0
+East,Herbal Tea,Lemon,Sales,20120701, 6.0
+East,Herbal Tea,Lemon,Sales,20120801, 27.0
+East,Herbal Tea,Lemon,Sales,20120901, 96.0
+East,Herbal Tea,Lemon,Sales,20121001, 91.0
+East,Herbal Tea,Lemon,Sales,20121101, 50.0
+East,Herbal Tea,Lemon,Sales,20121201, 24.0
+East,Herbal Tea,Charmomile,Plan,20120101, 13.0
+East,Herbal Tea,Charmomile,Plan,20120201, 65.0
+East,Herbal Tea,Charmomile,Plan,20120301, 76.0
+East,Herbal Tea,Charmomile,Plan,20120401, 75.0
+East,Herbal Tea,Charmomile,Plan,20120501, 96.0
+East,Herbal Tea,Charmomile,Plan,20120601, 40.0
+East,Herbal Tea,Charmomile,Plan,20120701, 22.0
+East,Herbal Tea,Charmomile,Plan,20120801, 97.0
+East,Herbal Tea,Charmomile,Plan,20120901, 71.0
+East,Herbal Tea,Charmomile,Plan,20121001, 0.0
+East,Herbal Tea,Charmomile,Plan,20121101, 9.0
+East,Herbal Tea,Charmomile,Plan,20121201, 8.0
+East,Herbal Tea,Charmomile,Sales,20120101, 28.0
+East,Herbal Tea,Charmomile,Sales,20120201, 18.0
+East,Herbal Tea,Charmomile,Sales,20120301, 63.0
+East,Herbal Tea,Charmomile,Sales,20120401, 52.0
+East,Herbal Tea,Charmomile,Sales,20120501, 49.0
+East,Herbal Tea,Charmomile,Sales,20120601, 43.0
+East,Herbal Tea,Charmomile,Sales,20120701, 20.0
+East,Herbal Tea,Charmomile,Sales,20120801, 52.0
+East,Herbal Tea,Charmomile,Sales,20120901, 47.0
+East,Herbal Tea,Charmomile,Sales,20121001, 8.0
+East,Herbal Tea,Charmomile,Sales,20121101, 47.0
+East,Herbal Tea,Charmomile,Sales,20121201, 57.0
+East,Herbal Tea,Mint,Plan,20120101, 39.0
+East,Herbal Tea,Mint,Plan,20120201, 31.0
+East,Herbal Tea,Mint,Plan,20120301, 5.0
+East,Herbal Tea,Mint,Plan,20120401, 21.0
+East,Herbal Tea,Mint,Plan,20120501, 83.0
+East,Herbal Tea,Mint,Plan,20120601, 72.0
+East,Herbal Tea,Mint,Plan,20120701, 46.0
+East,Herbal Tea,Mint,Plan,20120801, 45.0
+East,Herbal Tea,Mint,Plan,20120901, 45.0
+East,Herbal Tea,Mint,Plan,20121001, 81.0
+East,Herbal Tea,Mint,Plan,20121101, 99.0
+East,Herbal Tea,Mint,Plan,20121201, 52.0
+East,Herbal Tea,Mint,Sales,20120101, 6.0
+East,Herbal Tea,Mint,Sales,20120201, 22.0
+East,Herbal Tea,Mint,Sales,20120301, 75.0
+East,Herbal Tea,Mint,Sales,20120401, 49.0
+East,Herbal Tea,Mint,Sales,20120501, 18.0
+East,Herbal Tea,Mint,Sales,20120601, 42.0
+East,Herbal Tea,Mint,Sales,20120701, 50.0
+East,Herbal Tea,Mint,Sales,20120801, 84.0
+East,Herbal Tea,Mint,Sales,20120901, 11.0
+East,Herbal Tea,Mint,Sales,20121001, 38.0
 East,Herbal Tea,Mint,Sales,20121101, 30.0
-East,Herbal Tea,Mint,Sales,20121201, 75.0
-East,Tea,Darjeeling,Plan,20120101, 18.0
-East,Tea,Darjeeling,Plan,20120201, 38.0
-East,Tea,Darjeeling,Plan,20120301, 73.0
-East,Tea,Darjeeling,Plan,20120401, 17.0
-East,Tea,Darjeeling,Plan,20120501, 10.0
-East,Tea,Darjeeling,Plan,20120601, 14.0
-East,Tea,Darjeeling,Plan,20120701, 12.0
-East,Tea,Darjeeling,Plan,20120801, 78.0
-East,Tea,Darjeeling,Plan,20120901, 67.0
-East,Tea,Darjeeling,Plan,20121001, 52.0
-East,Tea,Darjeeling,Plan,20121101, 30.0
-East,Tea,Darjeeling,Plan,20121201, 75.0
-East,Tea,Darjeeling,Sales,20120101, 18.0
-East,Tea,Darjeeling,Sales,20120201, 38.0
-East,Tea,Darjeeling,Sales,20120301, 73.0
-East,Tea,Darjeeling,Sales,20120401, 17.0
-East,Tea,Darjeeling,Sales,20120501, 10.0
-East,Tea,Darjeeling,Sales,20120601, 14.0
-East,Tea,Darjeeling,Sales,20120701, 12.0
-East,Tea,Darjeeling,Sales,20120801, 78.0
-East,Tea,Darjeeling,Sales,20120901, 67.0
-East,Tea,Darjeeling,Sales,20121001, 52.0
-East,Tea,Darjeeling,Sales,20121101, 30.0
-East,Tea,Darjeeling,Sales,20121201, 75.0
-East,Tea,Earl Grey,Plan,20120101, 18.0
-East,Tea,Earl Grey,Plan,20120201, 38.0
-East,Tea,Earl Grey,Plan,20120301, 73.0
-East,Tea,Earl Grey,Plan,20120401, 17.0
-East,Tea,Earl Grey,Plan,20120501, 10.0
-East,Tea,Earl Grey,Plan,20120601, 14.0
-East,Tea,Earl Grey,Plan,20120701, 12.0
-East,Tea,Earl Grey,Plan,20120801, 78.0
-East,Tea,Earl Grey,Plan,20120901, 67.0
-East,Tea,Earl Grey,Plan,20121001, 52.0
-East,Tea,Earl Grey,Plan,20121101, 30.0
-East,Tea,Earl Grey,Plan,20121201, 75.0
-East,Tea,Earl Grey,Sales,20120101, 18.0
-East,Tea,Earl Grey,Sales,20120201, 38.0
-East,Tea,Earl Grey,Sales,20120301, 73.0
-East,Tea,Earl Grey,Sales,20120401, 17.0
-East,Tea,Earl Grey,Sales,20120501, 10.0
-East,Tea,Earl Grey,Sales,20120601, 14.0
-East,Tea,Earl Grey,Sales,20120701, 12.0
-East,Tea,Earl Grey,Sales,20120801, 78.0
-East,Tea,Earl Grey,Sales,20120901, 67.0
-East,Tea,Earl Grey,Sales,20121001, 52.0
-East,Tea,Earl Grey,Sales,20121101, 30.0
-East,Tea,Earl Grey,Sales,20121201, 75.0
-East,Tea,Green Tea,Plan,20120101, 18.0
+East,Herbal Tea,Mint,Sales,20121201, 76.0
+East,Tea,Darjeeling,Plan,20120101, 92.0
+East,Tea,Darjeeling,Plan,20120201, 2.0
+East,Tea,Darjeeling,Plan,20120301, 27.0
+East,Tea,Darjeeling,Plan,20120401, 65.0
+East,Tea,Darjeeling,Plan,20120501, 4.0
+East,Tea,Darjeeling,Plan,20120601, 30.0
+East,Tea,Darjeeling,Plan,20120701, 7.0
+East,Tea,Darjeeling,Plan,20120801, 58.0
+East,Tea,Darjeeling,Plan,20120901, 50.0
+East,Tea,Darjeeling,Plan,20121001, 26.0
+East,Tea,Darjeeling,Plan,20121101, 61.0
+East,Tea,Darjeeling,Plan,20121201, 71.0
+East,Tea,Darjeeling,Sales,20120101, 3.0
+East,Tea,Darjeeling,Sales,20120201, 0.0
+East,Tea,Darjeeling,Sales,20120301, 68.0
+East,Tea,Darjeeling,Sales,20120401, 53.0
+East,Tea,Darjeeling,Sales,20120501, 15.0
+East,Tea,Darjeeling,Sales,20120601, 16.0
+East,Tea,Darjeeling,Sales,20120701, 95.0
+East,Tea,Darjeeling,Sales,20120801, 82.0
+East,Tea,Darjeeling,Sales,20120901, 78.0
+East,Tea,Darjeeling,Sales,20121001, 35.0
+East,Tea,Darjeeling,Sales,20121101, 80.0
+East,Tea,Darjeeling,Sales,20121201, 84.0
+East,Tea,Earl Grey,Plan,20120101, 24.0
+East,Tea,Earl Grey,Plan,20120201, 18.0
+East,Tea,Earl Grey,Plan,20120301, 92.0
+East,Tea,Earl Grey,Plan,20120401, 53.0
+East,Tea,Earl Grey,Plan,20120501, 83.0
+East,Tea,Earl Grey,Plan,20120601, 37.0
+East,Tea,Earl Grey,Plan,20120701, 50.0
+East,Tea,Earl Grey,Plan,20120801, 16.0
+East,Tea,Earl Grey,Plan,20120901, 42.0
+East,Tea,Earl Grey,Plan,20121001, 24.0
+East,Tea,Earl Grey,Plan,20121101, 17.0
+East,Tea,Earl Grey,Plan,20121201, 72.0
+East,Tea,Earl Grey,Sales,20120101, 65.0
+East,Tea,Earl Grey,Sales,20120201, 85.0
+East,Tea,Earl Grey,Sales,20120301, 35.0
+East,Tea,Earl Grey,Sales,20120401, 33.0
+East,Tea,Earl Grey,Sales,20120501, 19.0
+East,Tea,Earl Grey,Sales,20120601, 26.0
+East,Tea,Earl Grey,Sales,20120701, 13.0
+East,Tea,Earl Grey,Sales,20120801, 88.0
+East,Tea,Earl Grey,Sales,20120901, 54.0
+East,Tea,Earl Grey,Sales,20121001, 63.0
+East,Tea,Earl Grey,Sales,20121101, 88.0
+East,Tea,Earl Grey,Sales,20121201, 62.0
+East,Tea,Green Tea,Plan,20120101, 86.0
 East,Tea,Green Tea,Plan,20120201, 38.0
-East,Tea,Green Tea,Plan,20120301, 73.0
-East,Tea,Green Tea,Plan,20120401, 17.0
-East,Tea,Green Tea,Plan,20120501, 10.0
-East,Tea,Green Tea,Plan,20120601, 14.0
-East,Tea,Green Tea,Plan,20120701, 12.0
-East,Tea,Green Tea,Plan,20120801, 78.0
-East,Tea,Green Tea,Plan,20120901, 67.0
-East,Tea,Green Tea,Plan,20121001, 52.0
-East,Tea,Green Tea,Plan,20121101, 30.0
-East,Tea,Green Tea,Plan,20121201, 75.0
-East,Tea,Green Tea,Sales,20120101, 18.0
-East,Tea,Green Tea,Sales,20120201, 38.0
-East,Tea,Green Tea,Sales,20120301, 73.0
-East,Tea,Green Tea,Sales,20120401, 17.0
-East,Tea,Green Tea,Sales,20120501, 10.0
-East,Tea,Green Tea,Sales,20120601, 14.0
-East,Tea,Green Tea,Sales,20120701, 12.0
-East,Tea,Green Tea,Sales,20120801, 78.0
-East,Tea,Green Tea,Sales,20120901, 67.0
-East,Tea,Green Tea,Sales,20121001, 52.0
-East,Tea,Green Tea,Sales,20121101, 30.0
-East,Tea,Green Tea,Sales,20121201, 75.0
-Central,Coffee,Sumatra,Plan,20120101, 18.0
-Central,Coffee,Sumatra,Plan,20120201, 38.0
-Central,Coffee,Sumatra,Plan,20120301, 73.0
-Central,Coffee,Sumatra,Plan,20120401, 17.0
-Central,Coffee,Sumatra,Plan,20120501, 10.0
-Central,Coffee,Sumatra,Plan,20120601, 14.0
-Central,Coffee,Sumatra,Plan,20120701, 12.0
-Central,Coffee,Sumatra,Plan,20120801, 78.0
-Central,Coffee,Sumatra,Plan,20120901, 67.0
-Central,Coffee,Sumatra,Plan,20121001, 52.0
-Central,Coffee,Sumatra,Plan,20121101, 30.0
-Central,Coffee,Sumatra,Plan,20121201, 75.0
-Central,Coffee,Sumatra,Sales,20120101, 18.0
-Central,Coffee,Sumatra,Sales,20120201, 38.0
-Central,Coffee,Sumatra,Sales,20120301, 73.0
-Central,Coffee,Sumatra,Sales,20120401, 17.0
-Central,Coffee,Sumatra,Sales,20120501, 10.0
-Central,Coffee,Sumatra,Sales,20120601, 14.0
-Central,Coffee,Sumatra,Sales,20120701, 12.0
-Central,Coffee,Sumatra,Sales,20120801, 78.0
-Central,Coffee,Sumatra,Sales,20120901, 67.0
-Central,Coffee,Sumatra,Sales,20121001, 52.0
-Central,Coffee,Sumatra,Sales,20121101, 30.0
-Central,Coffee,Sumatra,Sales,20121201, 75.0
-Central,Coffee,French Roast,Plan,20120101, 18.0
-Central,Coffee,French Roast,Plan,20120201, 38.0
-Central,Coffee,French Roast,Plan,20120301, 73.0
-Central,Coffee,French Roast,Plan,20120401, 17.0
-Central,Coffee,French Roast,Plan,20120501, 10.0
-Central,Coffee,French Roast,Plan,20120601, 14.0
-Central,Coffee,French Roast,Plan,20120701, 12.0
-Central,Coffee,French Roast,Plan,20120801, 78.0
-Central,Coffee,French Roast,Plan,20120901, 67.0
-Central,Coffee,French Roast,Plan,20121001, 52.0
-Central,Coffee,French Roast,Plan,20121101, 30.0
-Central,Coffee,French Roast,Plan,20121201, 75.0
-Central,Coffee,French Roast,Sales,20120101, 18.0
-Central,Coffee,French Roast,Sales,20120201, 38.0
-Central,Coffee,French Roast,Sales,20120301, 73.0
-Central,Coffee,French Roast,Sales,20120401, 17.0
-Central,Coffee,French Roast,Sales,20120501, 10.0
-Central,Coffee,French Roast,Sales,20120601, 14.0
-Central,Coffee,French Roast,Sales,20120701, 12.0
-Central,Coffee,French Roast,Sales,20120801, 78.0
-Central,Coffee,French Roast,Sales,20120901, 67.0
-Central,Coffee,French Roast,Sales,20121001, 52.0
-Central,Coffee,French Roast,Sales,20121101, 30.0
-Central,Coffee,French Roast,Sales,20121201, 75.0
-Central,Espresso,Mocha-Java,Plan,20120101, 18.0
-Central,Espresso,Mocha-Java,Plan,20120201, 38.0
-Central,Espresso,Mocha-Java,Plan,20120301, 73.0
-Central,Espresso,Mocha-Java,Plan,20120401, 17.0
-Central,Espresso,Mocha-Java,Plan,20120501, 10.0
-Central,Espresso,Mocha-Java,Plan,20120601, 14.0
-Central,Espresso,Mocha-Java,Plan,20120701, 12.0
-Central,Espresso,Mocha-Java,Plan,20120801, 78.0
-Central,Espresso,Mocha-Java,Plan,20120901, 67.0
-Central,Espresso,Mocha-Java,Plan,20121001, 52.0
-Central,Espresso,Mocha-Java,Plan,20121101, 30.0
-Central,Espresso,Mocha-Java,Plan,20121201, 75.0
-Central,Espresso,Mocha-Java,Sales,20120101, 18.0
-Central,Espresso,Mocha-Java,Sales,20120201, 38.0
-Central,Espresso,Mocha-Java,Sales,20120301, 73.0
-Central,Espresso,Mocha-Java,Sales,20120401, 17.0
-Central,Espresso,Mocha-Java,Sales,20120501, 10.0
-Central,Espresso,Mocha-Java,Sales,20120601, 14.0
-Central,Espresso,Mocha-Java,Sales,20120701, 12.0
-Central,Espresso,Mocha-Java,Sales,20120801, 78.0
-Central,Espresso,Mocha-Java,Sales,20120901, 67.0
-Central,Espresso,Mocha-Java,Sales,20121001, 52.0
-Central,Espresso,Mocha-Java,Sales,20121101, 30.0
-Central,Espresso,Mocha-Java,Sales,20121201, 75.0
-Central,Espresso,Garuda,Plan,20120101, 18.0
-Central,Espresso,Garuda,Plan,20120201, 38.0
-Central,Espresso,Garuda,Plan,20120301, 73.0
-Central,Espresso,Garuda,Plan,20120401, 17.0
-Central,Espresso,Garuda,Plan,20120501, 10.0
-Central,Espresso,Garuda,Plan,20120601, 14.0
-Central,Espresso,Garuda,Plan,20120701, 12.0
-Central,Espresso,Garuda,Plan,20120801, 78.0
-Central,Espresso,Garuda,Plan,20120901, 67.0
-Central,Espresso,Garuda,Plan,20121001, 52.0
-Central,Espresso,Garuda,Plan,20121101, 30.0
+East,Tea,Green Tea,Plan,20120301, 9.0
+East,Tea,Green Tea,Plan,20120401, 57.0
+East,Tea,Green Tea,Plan,20120501, 57.0
+East,Tea,Green Tea,Plan,20120601, 25.0
+East,Tea,Green Tea,Plan,20120701, 82.0
+East,Tea,Green Tea,Plan,20120801, 43.0
+East,Tea,Green Tea,Plan,20120901, 74.0
+East,Tea,Green Tea,Plan,20121001, 91.0
+East,Tea,Green Tea,Plan,20121101, 51.0
+East,Tea,Green Tea,Plan,20121201, 34.0
+East,Tea,Green Tea,Sales,20120101, 26.0
+East,Tea,Green Tea,Sales,20120201, 59.0
+East,Tea,Green Tea,Sales,20120301, 19.0
+East,Tea,Green Tea,Sales,20120401, 50.0
+East,Tea,Green Tea,Sales,20120501, 67.0
+East,Tea,Green Tea,Sales,20120601, 49.0
+East,Tea,Green Tea,Sales,20120701, 47.0
+East,Tea,Green Tea,Sales,20120801, 16.0
+East,Tea,Green Tea,Sales,20120901, 63.0
+East,Tea,Green Tea,Sales,20121001, 74.0
+East,Tea,Green Tea,Sales,20121101, 8.0
+East,Tea,Green Tea,Sales,20121201, 17.0
+Central,Coffee,Sumatra,Plan,20120101, 41.0
+Central,Coffee,Sumatra,Plan,20120201, 28.0
+Central,Coffee,Sumatra,Plan,20120301, 38.0
+Central,Coffee,Sumatra,Plan,20120401, 12.0
+Central,Coffee,Sumatra,Plan,20120501, 83.0
+Central,Coffee,Sumatra,Plan,20120601, 46.0
+Central,Coffee,Sumatra,Plan,20120701, 82.0
+Central,Coffee,Sumatra,Plan,20120801, 17.0
+Central,Coffee,Sumatra,Plan,20120901, 48.0
+Central,Coffee,Sumatra,Plan,20121001, 99.0
+Central,Coffee,Sumatra,Plan,20121101, 68.0
+Central,Coffee,Sumatra,Plan,20121201, 80.0
+Central,Coffee,Sumatra,Sales,20120101, 48.0
+Central,Coffee,Sumatra,Sales,20120201, 61.0
+Central,Coffee,Sumatra,Sales,20120301, 80.0
+Central,Coffee,Sumatra,Sales,20120401, 99.0
+Central,Coffee,Sumatra,Sales,20120501, 53.0
+Central,Coffee,Sumatra,Sales,20120601, 1.0
+Central,Coffee,Sumatra,Sales,20120701, 11.0
+Central,Coffee,Sumatra,Sales,20120801, 89.0
+Central,Coffee,Sumatra,Sales,20120901, 45.0
+Central,Coffee,Sumatra,Sales,20121001, 60.0
+Central,Coffee,Sumatra,Sales,20121101, 14.0
+Central,Coffee,Sumatra,Sales,20121201, 80.0
+Central,Coffee,French Roast,Plan,20120101, 15.0
+Central,Coffee,French Roast,Plan,20120201, 15.0
+Central,Coffee,French Roast,Plan,20120301, 46.0
+Central,Coffee,French Roast,Plan,20120401, 61.0
+Central,Coffee,French Roast,Plan,20120501, 74.0
+Central,Coffee,French Roast,Plan,20120601, 83.0
+Central,Coffee,French Roast,Plan,20120701, 0.0
+Central,Coffee,French Roast,Plan,20120801, 52.0
+Central,Coffee,French Roast,Plan,20120901, 84.0
+Central,Coffee,French Roast,Plan,20121001, 66.0
+Central,Coffee,French Roast,Plan,20121101, 32.0
+Central,Coffee,French Roast,Plan,20121201, 21.0
+Central,Coffee,French Roast,Sales,20120101, 62.0
+Central,Coffee,French Roast,Sales,20120201, 52.0
+Central,Coffee,French Roast,Sales,20120301, 20.0
+Central,Coffee,French Roast,Sales,20120401, 51.0
+Central,Coffee,French Roast,Sales,20120501, 61.0
+Central,Coffee,French Roast,Sales,20120601, 42.0
+Central,Coffee,French Roast,Sales,20120701, 0.0
+Central,Coffee,French Roast,Sales,20120801, 64.0
+Central,Coffee,French Roast,Sales,20120901, 18.0
+Central,Coffee,French Roast,Sales,20121001, 35.0
+Central,Coffee,French Roast,Sales,20121101, 49.0
+Central,Coffee,French Roast,Sales,20121201, 86.0
+Central,Espresso,Mocha-Java,Plan,20120101, 21.0
+Central,Espresso,Mocha-Java,Plan,20120201, 63.0
+Central,Espresso,Mocha-Java,Plan,20120301, 58.0
+Central,Espresso,Mocha-Java,Plan,20120401, 1.0
+Central,Espresso,Mocha-Java,Plan,20120501, 5.0
+Central,Espresso,Mocha-Java,Plan,20120601, 0.0
+Central,Espresso,Mocha-Java,Plan,20120701, 58.0
+Central,Espresso,Mocha-Java,Plan,20120801, 40.0
+Central,Espresso,Mocha-Java,Plan,20120901, 22.0
+Central,Espresso,Mocha-Java,Plan,20121001, 34.0
+Central,Espresso,Mocha-Java,Plan,20121101, 95.0
+Central,Espresso,Mocha-Java,Plan,20121201, 47.0
+Central,Espresso,Mocha-Java,Sales,20120101, 91.0
+Central,Espresso,Mocha-Java,Sales,20120201, 45.0
+Central,Espresso,Mocha-Java,Sales,20120301, 79.0
+Central,Espresso,Mocha-Java,Sales,20120401, 83.0
+Central,Espresso,Mocha-Java,Sales,20120501, 26.0
+Central,Espresso,Mocha-Java,Sales,20120601, 66.0
+Central,Espresso,Mocha-Java,Sales,20120701, 20.0
+Central,Espresso,Mocha-Java,Sales,20120801, 77.0
+Central,Espresso,Mocha-Java,Sales,20120901, 91.0
+Central,Espresso,Mocha-Java,Sales,20121001, 49.0
+Central,Espresso,Mocha-Java,Sales,20121101, 98.0
+Central,Espresso,Mocha-Java,Sales,20121201, 65.0
+Central,Espresso,Garuda,Plan,20120101, 19.0
+Central,Espresso,Garuda,Plan,20120201, 46.0
+Central,Espresso,Garuda,Plan,20120301, 66.0
+Central,Espresso,Garuda,Plan,20120401, 50.0
+Central,Espresso,Garuda,Plan,20120501, 34.0
+Central,Espresso,Garuda,Plan,20120601, 93.0
+Central,Espresso,Garuda,Plan,20120701, 1.0
+Central,Espresso,Garuda,Plan,20120801, 69.0
+Central,Espresso,Garuda,Plan,20120901, 13.0
+Central,Espresso,Garuda,Plan,20121001, 84.0
+Central,Espresso,Garuda,Plan,20121101, 60.0
 Central,Espresso,Garuda,Plan,20121201, 75.0
-Central,Espresso,Garuda,Sales,20120101, 18.0
-Central,Espresso,Garuda,Sales,20120201, 38.0
-Central,Espresso,Garuda,Sales,20120301, 73.0
-Central,Espresso,Garuda,Sales,20120401, 17.0
-Central,Espresso,Garuda,Sales,20120501, 10.0
-Central,Espresso,Garuda,Sales,20120601, 14.0
-Central,Espresso,Garuda,Sales,20120701, 12.0
-Central,Espresso,Garuda,Sales,20120801, 78.0
-Central,Espresso,Garuda,Sales,20120901, 67.0
-Central,Espresso,Garuda,Sales,20121001, 52.0
-Central,Espresso,Garuda,Sales,20121101, 30.0
-Central,Espresso,Garuda,Sales,20121201, 75.0
-Central,Espresso,Italian Roast,Plan,20120101, 18.0
-Central,Espresso,Italian Roast,Plan,20120201, 38.0
-Central,Espresso,Italian Roast,Plan,20120301, 73.0
-Central,Espresso,Italian Roast,Plan,20120401, 17.0
-Central,Espresso,Italian Roast,Plan,20120501, 10.0
-Central,Espresso,Italian Roast,Plan,20120601, 14.0
-Central,Espresso,Italian Roast,Plan,20120701, 12.0
-Central,Espresso,Italian Roast,Plan,20120801, 78.0
-Central,Espresso,Italian Roast,Plan,20120901, 67.0
-Central,Espresso,Italian Roast,Plan,20121001, 52.0
-Central,Espresso,Italian Roast,Plan,20121101, 30.0
-Central,Espresso,Italian Roast,Plan,20121201, 75.0
-Central,Espresso,Italian Roast,Sales,20120101, 18.0
-Central,Espresso,Italian Roast,Sales,20120201, 38.0
-Central,Espresso,Italian Roast,Sales,20120301, 73.0
-Central,Espresso,Italian Roast,Sales,20120401, 17.0
-Central,Espresso,Italian Roast,Sales,20120501, 10.0
-Central,Espresso,Italian Roast,Sales,20120601, 14.0
-Central,Espresso,Italian Roast,Sales,20120701, 12.0
-Central,Espresso,Italian Roast,Sales,20120801, 78.0
-Central,Espresso,Italian Roast,Sales,20120901, 67.0
-Central,Espresso,Italian Roast,Sales,20121001, 52.0
-Central,Espresso,Italian Roast,Sales,20121101, 30.0
-Central,Espresso,Italian Roast,Sales,20121201, 75.0
-Central,Espresso,Arabian,Plan,20120101, 18.0
-Central,Espresso,Arabian,Plan,20120201, 38.0
-Central,Espresso,Arabian,Plan,20120301, 73.0
-Central,Espresso,Arabian,Plan,20120401, 17.0
-Central,Espresso,Arabian,Plan,20120501, 10.0
-Central,Espresso,Arabian,Plan,20120601, 14.0
-Central,Espresso,Arabian,Plan,20120701, 12.0
-Central,Espresso,Arabian,Plan,20120801, 78.0
-Central,Espresso,Arabian,Plan,20120901, 67.0
-Central,Espresso,Arabian,Plan,20121001, 52.0
-Central,Espresso,Arabian,Plan,20121101, 30.0
-Central,Espresso,Arabian,Plan,20121201, 75.0
-Central,Espresso,Arabian,Sales,20120101, 18.0
-Central,Espresso,Arabian,Sales,20120201, 38.0
-Central,Espresso,Arabian,Sales,20120301, 73.0
-Central,Espresso,Arabian,Sales,20120401, 17.0
-Central,Espresso,Arabian,Sales,20120501, 10.0
-Central,Espresso,Arabian,Sales,20120601, 14.0
-Central,Espresso,Arabian,Sales,20120701, 12.0
-Central,Espresso,Arabian,Sales,20120801, 78.0
-Central,Espresso,Arabian,Sales,20120901, 67.0
-Central,Espresso,Arabian,Sales,20121001, 52.0
-Central,Espresso,Arabian,Sales,20121101, 30.0
-Central,Espresso,Arabian,Sales,20121201, 75.0
-Central,Herbal Tea,Lemon,Plan,20120101, 18.0
-Central,Herbal Tea,Lemon,Plan,20120201, 38.0
-Central,Herbal Tea,Lemon,Plan,20120301, 73.0
-Central,Herbal Tea,Lemon,Plan,20120401, 17.0
-Central,Herbal Tea,Lemon,Plan,20120501, 10.0
-Central,Herbal Tea,Lemon,Plan,20120601, 14.0
-Central,Herbal Tea,Lemon,Plan,20120701, 12.0
-Central,Herbal Tea,Lemon,Plan,20120801, 78.0
-Central,Herbal Tea,Lemon,Plan,20120901, 67.0
-Central,Herbal Tea,Lemon,Plan,20121001, 52.0
+Central,Espresso,Garuda,Sales,20120101, 0.0
+Central,Espresso,Garuda,Sales,20120201, 50.0
+Central,Espresso,Garuda,Sales,20120301, 2.0
+Central,Espresso,Garuda,Sales,20120401, 49.0
+Central,Espresso,Garuda,Sales,20120501, 44.0
+Central,Espresso,Garuda,Sales,20120601, 89.0
+Central,Espresso,Garuda,Sales,20120701, 29.0
+Central,Espresso,Garuda,Sales,20120801, 77.0
+Central,Espresso,Garuda,Sales,20120901, 20.0
+Central,Espresso,Garuda,Sales,20121001, 33.0
+Central,Espresso,Garuda,Sales,20121101, 19.0
+Central,Espresso,Garuda,Sales,20121201, 88.0
+Central,Espresso,Italian Roast,Plan,20120101, 15.0
+Central,Espresso,Italian Roast,Plan,20120201, 28.0
+Central,Espresso,Italian Roast,Plan,20120301, 84.0
+Central,Espresso,Italian Roast,Plan,20120401, 87.0
+Central,Espresso,Italian Roast,Plan,20120501, 30.0
+Central,Espresso,Italian Roast,Plan,20120601, 44.0
+Central,Espresso,Italian Roast,Plan,20120701, 76.0
+Central,Espresso,Italian Roast,Plan,20120801, 34.0
+Central,Espresso,Italian Roast,Plan,20120901, 53.0
+Central,Espresso,Italian Roast,Plan,20121001, 82.0
+Central,Espresso,Italian Roast,Plan,20121101, 28.0
+Central,Espresso,Italian Roast,Plan,20121201, 54.0
+Central,Espresso,Italian Roast,Sales,20120101, 22.0
+Central,Espresso,Italian Roast,Sales,20120201, 90.0
+Central,Espresso,Italian Roast,Sales,20120301, 59.0
+Central,Espresso,Italian Roast,Sales,20120401, 23.0
+Central,Espresso,Italian Roast,Sales,20120501, 64.0
+Central,Espresso,Italian Roast,Sales,20120601, 10.0
+Central,Espresso,Italian Roast,Sales,20120701, 58.0
+Central,Espresso,Italian Roast,Sales,20120801, 67.0
+Central,Espresso,Italian Roast,Sales,20120901, 41.0
+Central,Espresso,Italian Roast,Sales,20121001, 30.0
+Central,Espresso,Italian Roast,Sales,20121101, 39.0
+Central,Espresso,Italian Roast,Sales,20121201, 72.0
+Central,Espresso,Arabian,Plan,20120101, 11.0
+Central,Espresso,Arabian,Plan,20120201, 63.0
+Central,Espresso,Arabian,Plan,20120301, 60.0
+Central,Espresso,Arabian,Plan,20120401, 25.0
+Central,Espresso,Arabian,Plan,20120501, 1.0
+Central,Espresso,Arabian,Plan,20120601, 76.0
+Central,Espresso,Arabian,Plan,20120701, 45.0
+Central,Espresso,Arabian,Plan,20120801, 18.0
+Central,Espresso,Arabian,Plan,20120901, 58.0
+Central,Espresso,Arabian,Plan,20121001, 32.0
+Central,Espresso,Arabian,Plan,20121101, 27.0
+Central,Espresso,Arabian,Plan,20121201, 92.0
+Central,Espresso,Arabian,Sales,20120101, 43.0
+Central,Espresso,Arabian,Sales,20120201, 83.0
+Central,Espresso,Arabian,Sales,20120301, 63.0
+Central,Espresso,Arabian,Sales,20120401, 37.0
+Central,Espresso,Arabian,Sales,20120501, 39.0
+Central,Espresso,Arabian,Sales,20120601, 6.0
+Central,Espresso,Arabian,Sales,20120701, 37.0
+Central,Espresso,Arabian,Sales,20120801, 38.0
+Central,Espresso,Arabian,Sales,20120901, 49.0
+Central,Espresso,Arabian,Sales,20121001, 67.0
+Central,Espresso,Arabian,Sales,20121101, 68.0
+Central,Espresso,Arabian,Sales,20121201, 47.0
+Central,Herbal Tea,Lemon,Plan,20120101, 55.0
+Central,Herbal Tea,Lemon,Plan,20120201, 90.0
+Central,Herbal Tea,Lemon,Plan,20120301, 83.0
+Central,Herbal Tea,Lemon,Plan,20120401, 33.0
+Central,Herbal Tea,Lemon,Plan,20120501, 70.0
+Central,Herbal Tea,Lemon,Plan,20120601, 63.0
+Central,Herbal Tea,Lemon,Plan,20120701, 38.0
+Central,Herbal Tea,Lemon,Plan,20120801, 13.0
+Central,Herbal Tea,Lemon,Plan,20120901, 10.0
+Central,Herbal Tea,Lemon,Plan,20121001, 89.0
 Central,Herbal Tea,Lemon,Plan,20121101, 30.0
-Central,Herbal Tea,Lemon,Plan,20121201, 75.0
-Central,Herbal Tea,Lemon,Sales,20120101, 18.0
-Central,Herbal Tea,Lemon,Sales,20120201, 38.0
-Central,Herbal Tea,Lemon,Sales,20120301, 73.0
-Central,Herbal Tea,Lemon,Sales,20120401, 17.0
-Central,Herbal Tea,Lemon,Sales,20120501, 10.0
-Central,Herbal Tea,Lemon,Sales,20120601, 14.0
-Central,Herbal Tea,Lemon,Sales,20120701, 12.0
-Central,Herbal Tea,Lemon,Sales,20120801, 78.0
-Central,Herbal Tea,Lemon,Sales,20120901, 67.0
-Central,Herbal Tea,Lemon,Sales,20121001, 52.0
-Central,Herbal Tea,Lemon,Sales,20121101, 30.0
-Central,Herbal Tea,Lemon,Sales,20121201, 75.0
-Central,Herbal Tea,Charmomile,Plan,20120101, 18.0
-Central,Herbal Tea,Charmomile,Plan,20120201, 38.0
-Central,Herbal Tea,Charmomile,Plan,20120301, 73.0
-Central,Herbal Tea,Charmomile,Plan,20120401, 17.0
-Central,Herbal Tea,Charmomile,Plan,20120501, 10.0
-Central,Herbal Tea,Charmomile,Plan,20120601, 14.0
-Central,Herbal Tea,Charmomile,Plan,20120701, 12.0
-Central,Herbal Tea,Charmomile,Plan,20120801, 78.0
-Central,Herbal Tea,Charmomile,Plan,20120901, 67.0
-Central,Herbal Tea,Charmomile,Plan,20121001, 52.0
-Central,Herbal Tea,Charmomile,Plan,20121101, 30.0
-Central,Herbal Tea,Charmomile,Plan,20121201, 75.0
-Central,Herbal Tea,Charmomile,Sales,20120101, 18.0
-Central,Herbal Tea,Charmomile,Sales,20120201, 38.0
-Central,Herbal Tea,Charmomile,Sales,20120301, 73.0
-Central,Herbal Tea,Charmomile,Sales,20120401, 17.0
-Central,Herbal Tea,Charmomile,Sales,20120501, 10.0
-Central,Herbal Tea,Charmomile,Sales,20120601, 14.0
-Central,Herbal Tea,Charmomile,Sales,20120701, 12.0
-Central,Herbal Tea,Charmomile,Sales,20120801, 78.0
-Central,Herbal Tea,Charmomile,Sales,20120901, 67.0
-Central,Herbal Tea,Charmomile,Sales,20121001, 52.0
-Central,Herbal Tea,Charmomile,Sales,20121101, 30.0
-Central,Herbal Tea,Charmomile,Sales,20121201, 75.0
-Central,Herbal Tea,Mint,Plan,20120101, 18.0
-Central,Herbal Tea,Mint,Plan,20120201, 38.0
-Central,Herbal Tea,Mint,Plan,20120301, 73.0
-Central,Herbal Tea,Mint,Plan,20120401, 17.0
-Central,Herbal Tea,Mint,Plan,20120501, 10.0
-Central,Herbal Tea,Mint,Plan,20120601, 14.0
-Central,Herbal Tea,Mint,Plan,20120701, 12.0
-Central,Herbal Tea,Mint,Plan,20120801, 78.0
-Central,Herbal Tea,Mint,Plan,20120901, 67.0
-Central,Herbal Tea,Mint,Plan,20121001, 52.0
-Central,Herbal Tea,Mint,Plan,20121101, 30.0
-Central,Herbal Tea,Mint,Plan,20121201, 75.0
-Central,Herbal Tea,Mint,Sales,20120101, 18.0
-Central,Herbal Tea,Mint,Sales,20120201, 38.0
-Central,Herbal Tea,Mint,Sales,20120301, 73.0
-Central,Herbal Tea,Mint,Sales,20120401, 17.0
+Central,Herbal Tea,Lemon,Plan,20121201, 65.0
+Central,Herbal Tea,Lemon,Sales,20120101, 56.0
+Central,Herbal Tea,Lemon,Sales,20120201, 2.0
+Central,Herbal Tea,Lemon,Sales,20120301, 1.0
+Central,Herbal Tea,Lemon,Sales,20120401, 80.0
+Central,Herbal Tea,Lemon,Sales,20120501, 33.0
+Central,Herbal Tea,Lemon,Sales,20120601, 72.0
+Central,Herbal Tea,Lemon,Sales,20120701, 48.0
+Central,Herbal Tea,Lemon,Sales,20120801, 84.0
+Central,Herbal Tea,Lemon,Sales,20120901, 87.0
+Central,Herbal Tea,Lemon,Sales,20121001, 65.0
+Central,Herbal Tea,Lemon,Sales,20121101, 3.0
+Central,Herbal Tea,Lemon,Sales,20121201, 9.0
+Central,Herbal Tea,Charmomile,Plan,20120101, 50.0
+Central,Herbal Tea,Charmomile,Plan,20120201, 71.0
+Central,Herbal Tea,Charmomile,Plan,20120301, 47.0
+Central,Herbal Tea,Charmomile,Plan,20120401, 5.0
+Central,Herbal Tea,Charmomile,Plan,20120501, 33.0
+Central,Herbal Tea,Charmomile,Plan,20120601, 52.0
+Central,Herbal Tea,Charmomile,Plan,20120701, 15.0
+Central,Herbal Tea,Charmomile,Plan,20120801, 2.0
+Central,Herbal Tea,Charmomile,Plan,20120901, 94.0
+Central,Herbal Tea,Charmomile,Plan,20121001, 75.0
+Central,Herbal Tea,Charmomile,Plan,20121101, 7.0
+Central,Herbal Tea,Charmomile,Plan,20121201, 9.0
+Central,Herbal Tea,Charmomile,Sales,20120101, 3.0
+Central,Herbal Tea,Charmomile,Sales,20120201, 64.0
+Central,Herbal Tea,Charmomile,Sales,20120301, 3.0
+Central,Herbal Tea,Charmomile,Sales,20120401, 36.0
+Central,Herbal Tea,Charmomile,Sales,20120501, 89.0
+Central,Herbal Tea,Charmomile,Sales,20120601, 24.0
+Central,Herbal Tea,Charmomile,Sales,20120701, 89.0
+Central,Herbal Tea,Charmomile,Sales,20120801, 33.0
+Central,Herbal Tea,Charmomile,Sales,20120901, 58.0
+Central,Herbal Tea,Charmomile,Sales,20121001, 0.0
+Central,Herbal Tea,Charmomile,Sales,20121101, 36.0
+Central,Herbal Tea,Charmomile,Sales,20121201, 30.0
+Central,Herbal Tea,Mint,Plan,20120101, 26.0
+Central,Herbal Tea,Mint,Plan,20120201, 11.0
+Central,Herbal Tea,Mint,Plan,20120301, 56.0
+Central,Herbal Tea,Mint,Plan,20120401, 44.0
+Central,Herbal Tea,Mint,Plan,20120501, 5.0
+Central,Herbal Tea,Mint,Plan,20120601, 99.0
+Central,Herbal Tea,Mint,Plan,20120701, 8.0
+Central,Herbal Tea,Mint,Plan,20120801, 26.0
+Central,Herbal Tea,Mint,Plan,20120901, 17.0
+Central,Herbal Tea,Mint,Plan,20121001, 64.0
+Central,Herbal Tea,Mint,Plan,20121101, 51.0
+Central,Herbal Tea,Mint,Plan,20121201, 22.0
+Central,Herbal Tea,Mint,Sales,20120101, 79.0
+Central,Herbal Tea,Mint,Sales,20120201, 94.0
+Central,Herbal Tea,Mint,Sales,20120301, 94.0
+Central,Herbal Tea,Mint,Sales,20120401, 72.0
 Central,Herbal Tea,Mint,Sales,20120501, 10.0
-Central,Herbal Tea,Mint,Sales,20120601, 14.0
-Central,Herbal Tea,Mint,Sales,20120701, 12.0
-Central,Herbal Tea,Mint,Sales,20120801, 78.0
-Central,Herbal Tea,Mint,Sales,20120901, 67.0
-Central,Herbal Tea,Mint,Sales,20121001, 52.0
-Central,Herbal Tea,Mint,Sales,20121101, 30.0
-Central,Herbal Tea,Mint,Sales,20121201, 75.0
-Central,Tea,Darjeeling,Plan,20120101, 18.0
-Central,Tea,Darjeeling,Plan,20120201, 38.0
-Central,Tea,Darjeeling,Plan,20120301, 73.0
-Central,Tea,Darjeeling,Plan,20120401, 17.0
-Central,Tea,Darjeeling,Plan,20120501, 10.0
+Central,Herbal Tea,Mint,Sales,20120601, 36.0
+Central,Herbal Tea,Mint,Sales,20120701, 7.0
+Central,Herbal Tea,Mint,Sales,20120801, 13.0
+Central,Herbal Tea,Mint,Sales,20120901, 95.0
+Central,Herbal Tea,Mint,Sales,20121001, 51.0
+Central,Herbal Tea,Mint,Sales,20121101, 63.0
+Central,Herbal Tea,Mint,Sales,20121201, 6.0
+Central,Tea,Darjeeling,Plan,20120101, 88.0
+Central,Tea,Darjeeling,Plan,20120201, 48.0
+Central,Tea,Darjeeling,Plan,20120301, 92.0
+Central,Tea,Darjeeling,Plan,20120401, 13.0
+Central,Tea,Darjeeling,Plan,20120501, 33.0
 Central,Tea,Darjeeling,Plan,20120601, 14.0
-Central,Tea,Darjeeling,Plan,20120701, 12.0
-Central,Tea,Darjeeling,Plan,20120801, 78.0
-Central,Tea,Darjeeling,Plan,20120901, 67.0
-Central,Tea,Darjeeling,Plan,20121001, 52.0
-Central,Tea,Darjeeling,Plan,20121101, 30.0
-Central,Tea,Darjeeling,Plan,20121201, 75.0
-Central,Tea,Darjeeling,Sales,20120101, 18.0
-Central,Tea,Darjeeling,Sales,20120201, 38.0
-Central,Tea,Darjeeling,Sales,20120301, 73.0
-Central,Tea,Darjeeling,Sales,20120401, 17.0
-Central,Tea,Darjeeling,Sales,20120501, 10.0
-Central,Tea,Darjeeling,Sales,20120601, 14.0
-Central,Tea,Darjeeling,Sales,20120701, 12.0
-Central,Tea,Darjeeling,Sales,20120801, 78.0
-Central,Tea,Darjeeling,Sales,20120901, 67.0
-Central,Tea,Darjeeling,Sales,20121001, 52.0
-Central,Tea,Darjeeling,Sales,20121101, 30.0
-Central,Tea,Darjeeling,Sales,20121201, 75.0
-Central,Tea,Earl Grey,Plan,20120101, 18.0
-Central,Tea,Earl Grey,Plan,20120201, 38.0
-Central,Tea,Earl Grey,Plan,20120301, 73.0
-Central,Tea,Earl Grey,Plan,20120401, 17.0
-Central,Tea,Earl Grey,Plan,20120501, 10.0
-Central,Tea,Earl Grey,Plan,20120601, 14.0
-Central,Tea,Earl Grey,Plan,20120701, 12.0
-Central,Tea,Earl Grey,Plan,20120801, 78.0
-Central,Tea,Earl Grey,Plan,20120901, 67.0
-Central,Tea,Earl Grey,Plan,20121001, 52.0
-Central,Tea,Earl Grey,Plan,20121101, 30.0
-Central,Tea,Earl Grey,Plan,20121201, 75.0
-Central,Tea,Earl Grey,Sales,20120101, 18.0
-Central,Tea,Earl Grey,Sales,20120201, 38.0
-Central,Tea,Earl Grey,Sales,20120301, 73.0
-Central,Tea,Earl Grey,Sales,20120401, 17.0
-Central,Tea,Earl Grey,Sales,20120501, 10.0
-Central,Tea,Earl Grey,Sales,20120601, 14.0
-Central,Tea,Earl Grey,Sales,20120701, 12.0
-Central,Tea,Earl Grey,Sales,20120801, 78.0
-Central,Tea,Earl Grey,Sales,20120901, 67.0
-Central,Tea,Earl Grey,Sales,20121001, 52.0
-Central,Tea,Earl Grey,Sales,20121101, 30.0
-Central,Tea,Earl Grey,Sales,20121201, 75.0
-Central,Tea,Green Tea,Plan,20120101, 18.0
-Central,Tea,Green Tea,Plan,20120201, 38.0
-Central,Tea,Green Tea,Plan,20120301, 73.0
-Central,Tea,Green Tea,Plan,20120401, 17.0
-Central,Tea,Green Tea,Plan,20120501, 10.0
-Central,Tea,Green Tea,Plan,20120601, 14.0
-Central,Tea,Green Tea,Plan,20120701, 12.0
-Central,Tea,Green Tea,Plan,20120801, 78.0
-Central,Tea,Green Tea,Plan,20120901, 67.0
-Central,Tea,Green Tea,Plan,20121001, 52.0
-Central,Tea,Green Tea,Plan,20121101, 30.0
-Central,Tea,Green Tea,Plan,20121201, 75.0
-Central,Tea,Green Tea,Sales,20120101, 18.0
-Central,Tea,Green Tea,Sales,20120201, 38.0
-Central,Tea,Green Tea,Sales,20120301, 73.0
-Central,Tea,Green Tea,Sales,20120401, 17.0
-Central,Tea,Green Tea,Sales,20120501, 10.0
-Central,Tea,Green Tea,Sales,20120601, 14.0
-Central,Tea,Green Tea,Sales,20120701, 12.0
-Central,Tea,Green Tea,Sales,20120801, 78.0
-Central,Tea,Green Tea,Sales,20120901, 67.0
-Central,Tea,Green Tea,Sales,20121001, 52.0
-Central,Tea,Green Tea,Sales,20121101, 30.0
-Central,Tea,Green Tea,Sales,20121201, 75.0
-West,Coffee,Sumatra,Plan,20120101, 18.0
-West,Coffee,Sumatra,Plan,20120201, 38.0
-West,Coffee,Sumatra,Plan,20120301, 73.0
-West,Coffee,Sumatra,Plan,20120401, 17.0
-West,Coffee,Sumatra,Plan,20120501, 10.0
-West,Coffee,Sumatra,Plan,20120601, 14.0
-West,Coffee,Sumatra,Plan,20120701, 12.0
-West,Coffee,Sumatra,Plan,20120801, 78.0
-West,Coffee,Sumatra,Plan,20120901, 67.0
-West,Coffee,Sumatra,Plan,20121001, 52.0
-West,Coffee,Sumatra,Plan,20121101, 30.0
-West,Coffee,Sumatra,Plan,20121201, 75.0
-West,Coffee,Sumatra,Sales,20120101, 18.0
-West,Coffee,Sumatra,Sales,20120201, 38.0
-West,Coffee,Sumatra,Sales,20120301, 73.0
-West,Coffee,Sumatra,Sales,20120401, 17.0
-West,Coffee,Sumatra,Sales,20120501, 10.0
-West,Coffee,Sumatra,Sales,20120601, 14.0
-West,Coffee,Sumatra,Sales,20120701, 12.0
-West,Coffee,Sumatra,Sales,20120801, 78.0
-West,Coffee,Sumatra,Sales,20120901, 67.0
-West,Coffee,Sumatra,Sales,20121001, 52.0
-West,Coffee,Sumatra,Sales,20121101, 30.0
-West,Coffee,Sumatra,Sales,20121201, 75.0
-West,Coffee,French Roast,Plan,20120101, 18.0
-West,Coffee,French Roast,Plan,20120201, 38.0
-West,Coffee,French Roast,Plan,20120301, 73.0
-West,Coffee,French Roast,Plan,20120401, 17.0
-West,Coffee,French Roast,Plan,20120501, 10.0
-West,Coffee,French Roast,Plan,20120601, 14.0
-West,Coffee,French Roast,Plan,20120701, 12.0
-West,Coffee,French Roast,Plan,20120801, 78.0
-West,Coffee,French Roast,Plan,20120901, 67.0
-West,Coffee,French Roast,Plan,20121001, 52.0
-West,Coffee,French Roast,Plan,20121101, 30.0
-West,Coffee,French Roast,Plan,20121201, 75.0
-West,Coffee,French Roast,Sales,20120101, 18.0
+Central,Tea,Darjeeling,Plan,20120701, 28.0
+Central,Tea,Darjeeling,Plan,20120801, 99.0
+Central,Tea,Darjeeling,Plan,20120901, 91.0
+Central,Tea,Darjeeling,Plan,20121001, 63.0
+Central,Tea,Darjeeling,Plan,20121101, 99.0
+Central,Tea,Darjeeling,Plan,20121201, 5.0
+Central,Tea,Darjeeling,Sales,20120101, 60.0
+Central,Tea,Darjeeling,Sales,20120201, 69.0
+Central,Tea,Darjeeling,Sales,20120301, 0.0
+Central,Tea,Darjeeling,Sales,20120401, 9.0
+Central,Tea,Darjeeling,Sales,20120501, 30.0
+Central,Tea,Darjeeling,Sales,20120601, 67.0
+Central,Tea,Darjeeling,Sales,20120701, 49.0
+Central,Tea,Darjeeling,Sales,20120801, 63.0
+Central,Tea,Darjeeling,Sales,20120901, 34.0
+Central,Tea,Darjeeling,Sales,20121001, 11.0
+Central,Tea,Darjeeling,Sales,20121101, 77.0
+Central,Tea,Darjeeling,Sales,20121201, 48.0
+Central,Tea,Earl Grey,Plan,20120101, 82.0
+Central,Tea,Earl Grey,Plan,20120201, 6.0
+Central,Tea,Earl Grey,Plan,20120301, 66.0
+Central,Tea,Earl Grey,Plan,20120401, 67.0
+Central,Tea,Earl Grey,Plan,20120501, 30.0
+Central,Tea,Earl Grey,Plan,20120601, 77.0
+Central,Tea,Earl Grey,Plan,20120701, 78.0
+Central,Tea,Earl Grey,Plan,20120801, 55.0
+Central,Tea,Earl Grey,Plan,20120901, 99.0
+Central,Tea,Earl Grey,Plan,20121001, 96.0
+Central,Tea,Earl Grey,Plan,20121101, 29.0
+Central,Tea,Earl Grey,Plan,20121201, 37.0
+Central,Tea,Earl Grey,Sales,20120101, 72.0
+Central,Tea,Earl Grey,Sales,20120201, 59.0
+Central,Tea,Earl Grey,Sales,20120301, 21.0
+Central,Tea,Earl Grey,Sales,20120401, 41.0
+Central,Tea,Earl Grey,Sales,20120501, 43.0
+Central,Tea,Earl Grey,Sales,20120601, 0.0
+Central,Tea,Earl Grey,Sales,20120701, 21.0
+Central,Tea,Earl Grey,Sales,20120801, 46.0
+Central,Tea,Earl Grey,Sales,20120901, 84.0
+Central,Tea,Earl Grey,Sales,20121001, 36.0
+Central,Tea,Earl Grey,Sales,20121101, 88.0
+Central,Tea,Earl Grey,Sales,20121201, 52.0
+Central,Tea,Green Tea,Plan,20120101, 49.0
+Central,Tea,Green Tea,Plan,20120201, 52.0
+Central,Tea,Green Tea,Plan,20120301, 35.0
+Central,Tea,Green Tea,Plan,20120401, 79.0
+Central,Tea,Green Tea,Plan,20120501, 76.0
+Central,Tea,Green Tea,Plan,20120601, 75.0
+Central,Tea,Green Tea,Plan,20120701, 21.0
+Central,Tea,Green Tea,Plan,20120801, 41.0
+Central,Tea,Green Tea,Plan,20120901, 86.0
+Central,Tea,Green Tea,Plan,20121001, 54.0
+Central,Tea,Green Tea,Plan,20121101, 88.0
+Central,Tea,Green Tea,Plan,20121201, 57.0
+Central,Tea,Green Tea,Sales,20120101, 35.0
+Central,Tea,Green Tea,Sales,20120201, 90.0
+Central,Tea,Green Tea,Sales,20120301, 79.0
+Central,Tea,Green Tea,Sales,20120401, 77.0
+Central,Tea,Green Tea,Sales,20120501, 40.0
+Central,Tea,Green Tea,Sales,20120601, 2.0
+Central,Tea,Green Tea,Sales,20120701, 75.0
+Central,Tea,Green Tea,Sales,20120801, 26.0
+Central,Tea,Green Tea,Sales,20120901, 90.0
+Central,Tea,Green Tea,Sales,20121001, 62.0
+Central,Tea,Green Tea,Sales,20121101, 96.0
+Central,Tea,Green Tea,Sales,20121201, 10.0
+West,Coffee,Sumatra,Plan,20120101, 63.0
+West,Coffee,Sumatra,Plan,20120201, 84.0
+West,Coffee,Sumatra,Plan,20120301, 50.0
+West,Coffee,Sumatra,Plan,20120401, 2.0
+West,Coffee,Sumatra,Plan,20120501, 60.0
+West,Coffee,Sumatra,Plan,20120601, 58.0
+West,Coffee,Sumatra,Plan,20120701, 61.0
+West,Coffee,Sumatra,Plan,20120801, 77.0
+West,Coffee,Sumatra,Plan,20120901, 55.0
+West,Coffee,Sumatra,Plan,20121001, 84.0
+West,Coffee,Sumatra,Plan,20121101, 9.0
+West,Coffee,Sumatra,Plan,20121201, 0.0
+West,Coffee,Sumatra,Sales,20120101, 19.0
+West,Coffee,Sumatra,Sales,20120201, 10.0
+West,Coffee,Sumatra,Sales,20120301, 2.0
+West,Coffee,Sumatra,Sales,20120401, 20.0
+West,Coffee,Sumatra,Sales,20120501, 71.0
+West,Coffee,Sumatra,Sales,20120601, 74.0
+West,Coffee,Sumatra,Sales,20120701, 47.0
+West,Coffee,Sumatra,Sales,20120801, 4.0
+West,Coffee,Sumatra,Sales,20120901, 21.0
+West,Coffee,Sumatra,Sales,20121001, 19.0
+West,Coffee,Sumatra,Sales,20121101, 22.0
+West,Coffee,Sumatra,Sales,20121201, 45.0
+West,Coffee,French Roast,Plan,20120101, 67.0
+West,Coffee,French Roast,Plan,20120201, 75.0
+West,Coffee,French Roast,Plan,20120301, 68.0
+West,Coffee,French Roast,Plan,20120401, 46.0
+West,Coffee,French Roast,Plan,20120501, 85.0
+West,Coffee,French Roast,Plan,20120601, 25.0
+West,Coffee,French Roast,Plan,20120701, 57.0
+West,Coffee,French Roast,Plan,20120801, 55.0
+West,Coffee,French Roast,Plan,20120901, 41.0
+West,Coffee,French Roast,Plan,20121001, 22.0
+West,Coffee,French Roast,Plan,20121101, 96.0
+West,Coffee,French Roast,Plan,20121201, 5.0
+West,Coffee,French Roast,Sales,20120101, 20.0
 West,Coffee,French Roast,Sales,20120201, 38.0
-West,Coffee,French Roast,Sales,20120301, 73.0
-West,Coffee,French Roast,Sales,20120401, 17.0
-West,Coffee,French Roast,Sales,20120501, 10.0
-West,Coffee,French Roast,Sales,20120601, 14.0
-West,Coffee,French Roast,Sales,20120701, 12.0
-West,Coffee,French Roast,Sales,20120801, 78.0
-West,Coffee,French Roast,Sales,20120901, 67.0
-West,Coffee,French Roast,Sales,20121001, 52.0
-West,Coffee,French Roast,Sales,20121101, 30.0
-West,Coffee,French Roast,Sales,20121201, 75.0
-West,Espresso,Mocha-Java,Plan,20120101, 18.0
-West,Espresso,Mocha-Java,Plan,20120201, 38.0
-West,Espresso,Mocha-Java,Plan,20120301, 73.0
-West,Espresso,Mocha-Java,Plan,20120401, 17.0
-West,Espresso,Mocha-Java,Plan,20120501, 10.0
-West,Espresso,Mocha-Java,Plan,20120601, 14.0
-West,Espresso,Mocha-Java,Plan,20120701, 12.0
-West,Espresso,Mocha-Java,Plan,20120801, 78.0
-West,Espresso,Mocha-Java,Plan,20120901, 67.0
-West,Espresso,Mocha-Java,Plan,20121001, 52.0
-West,Espresso,Mocha-Java,Plan,20121101, 30.0
-West,Espresso,Mocha-Java,Plan,20121201, 75.0
-West,Espresso,Mocha-Java,Sales,20120101, 18.0
-West,Espresso,Mocha-Java,Sales,20120201, 38.0
-West,Espresso,Mocha-Java,Sales,20120301, 73.0
-West,Espresso,Mocha-Java,Sales,20120401, 17.0
-West,Espresso,Mocha-Java,Sales,20120501, 10.0
-West,Espresso,Mocha-Java,Sales,20120601, 14.0
-West,Espresso,Mocha-Java,Sales,20120701, 12.0
-West,Espresso,Mocha-Java,Sales,20120801, 78.0
-West,Espresso,Mocha-Java,Sales,20120901, 67.0
-West,Espresso,Mocha-Java,Sales,20121001, 52.0
-West,Espresso,Mocha-Java,Sales,20121101, 30.0
-West,Espresso,Mocha-Java,Sales,20121201, 75.0
-West,Espresso,Garuda,Plan,20120101, 18.0
-West,Espresso,Garuda,Plan,20120201, 38.0
-West,Espresso,Garuda,Plan,20120301, 73.0
-West,Espresso,Garuda,Plan,20120401, 17.0
-West,Espresso,Garuda,Plan,20120501, 10.0
-West,Espresso,Garuda,Plan,20120601, 14.0
-West,Espresso,Garuda,Plan,20120701, 12.0
-West,Espresso,Garuda,Plan,20120801, 78.0
-West,Espresso,Garuda,Plan,20120901, 67.0
-West,Espresso,Garuda,Plan,20121001, 52.0
-West,Espresso,Garuda,Plan,20121101, 30.0
-West,Espresso,Garuda,Plan,20121201, 75.0
-West,Espresso,Garuda,Sales,20120101, 18.0
-West,Espresso,Garuda,Sales,20120201, 38.0
-West,Espresso,Garuda,Sales,20120301, 73.0
-West,Espresso,Garuda,Sales,20120401, 17.0
-West,Espresso,Garuda,Sales,20120501, 10.0
-West,Espresso,Garuda,Sales,20120601, 14.0
-West,Espresso,Garuda,Sales,20120701, 12.0
-West,Espresso,Garuda,Sales,20120801, 78.0
-West,Espresso,Garuda,Sales,20120901, 67.0
-West,Espresso,Garuda,Sales,20121001, 52.0
-West,Espresso,Garuda,Sales,20121101, 30.0
-West,Espresso,Garuda,Sales,20121201, 75.0
-West,Espresso,Italian Roast,Plan,20120101, 18.0
-West,Espresso,Italian Roast,Plan,20120201, 38.0
-West,Espresso,Italian Roast,Plan,20120301, 73.0
-West,Espresso,Italian Roast,Plan,20120401, 17.0
-West,Espresso,Italian Roast,Plan,20120501, 10.0
-West,Espresso,Italian Roast,Plan,20120601, 14.0
-West,Espresso,Italian Roast,Plan,20120701, 12.0
-West,Espresso,Italian Roast,Plan,20120801, 78.0
-West,Espresso,Italian Roast,Plan,20120901, 67.0
-West,Espresso,Italian Roast,Plan,20121001, 52.0
-West,Espresso,Italian Roast,Plan,20121101, 30.0
-West,Espresso,Italian Roast,Plan,20121201, 75.0
-West,Espresso,Italian Roast,Sales,20120101, 18.0
-West,Espresso,Italian Roast,Sales,20120201, 38.0
-West,Espresso,Italian Roast,Sales,20120301, 73.0
-West,Espresso,Italian Roast,Sales,20120401, 17.0
-West,Espresso,Italian Roast,Sales,20120501, 10.0
-West,Espresso,Italian Roast,Sales,20120601, 14.0
-West,Espresso,Italian Roast,Sales,20120701, 12.0
-West,Espresso,Italian Roast,Sales,20120801, 78.0
-West,Espresso,Italian Roast,Sales,20120901, 67.0
-West,Espresso,Italian Roast,Sales,20121001, 52.0
-West,Espresso,Italian Roast,Sales,20121101, 30.0
-West,Espresso,Italian Roast,Sales,20121201, 75.0
-West,Espresso,Arabian,Plan,20120101, 18.0
-West,Espresso,Arabian,Plan,20120201, 38.0
-West,Espresso,Arabian,Plan,20120301, 73.0
-West,Espresso,Arabian,Plan,20120401, 17.0
-West,Espresso,Arabian,Plan,20120501, 10.0
-West,Espresso,Arabian,Plan,20120601, 14.0
-West,Espresso,Arabian,Plan,20120701, 12.0
-West,Espresso,Arabian,Plan,20120801, 78.0
-West,Espresso,Arabian,Plan,20120901, 67.0
-West,Espresso,Arabian,Plan,20121001, 52.0
-West,Espresso,Arabian,Plan,20121101, 30.0
-West,Espresso,Arabian,Plan,20121201, 75.0
-West,Espresso,Arabian,Sales,20120101, 18.0
-West,Espresso,Arabian,Sales,20120201, 38.0
-West,Espresso,Arabian,Sales,20120301, 73.0
-West,Espresso,Arabian,Sales,20120401, 17.0
-West,Espresso,Arabian,Sales,20120501, 10.0
-West,Espresso,Arabian,Sales,20120601, 14.0
-West,Espresso,Arabian,Sales,20120701, 12.0
-West,Espresso,Arabian,Sales,20120801, 78.0
-West,Espresso,Arabian,Sales,20120901, 67.0
-West,Espresso,Arabian,Sales,20121001, 52.0
-West,Espresso,Arabian,Sales,20121101, 30.0
-West,Espresso,Arabian,Sales,20121201, 75.0
-West,Herbal Tea,Lemon,Plan,20120101, 18.0
-West,Herbal Tea,Lemon,Plan,20120201, 38.0
-West,Herbal Tea,Lemon,Plan,20120301, 73.0
-West,Herbal Tea,Lemon,Plan,20120401, 17.0
-West,Herbal Tea,Lemon,Plan,20120501, 10.0
-West,Herbal Tea,Lemon,Plan,20120601, 14.0
-West,Herbal Tea,Lemon,Plan,20120701, 12.0
-West,Herbal Tea,Lemon,Plan,20120801, 78.0
-West,Herbal Tea,Lemon,Plan,20120901, 67.0
-West,Herbal Tea,Lemon,Plan,20121001, 52.0
-West,Herbal Tea,Lemon,Plan,20121101, 30.0
-West,Herbal Tea,Lemon,Plan,20121201, 75.0
-West,Herbal Tea,Lemon,Sales,20120101, 18.0
-West,Herbal Tea,Lemon,Sales,20120201, 38.0
-West,Herbal Tea,Lemon,Sales,20120301, 73.0
-West,Herbal Tea,Lemon,Sales,20120401, 17.0
-West,Herbal Tea,Lemon,Sales,20120501, 10.0
-West,Herbal Tea,Lemon,Sales,20120601, 14.0
-West,Herbal Tea,Lemon,Sales,20120701, 12.0
-West,Herbal Tea,Lemon,Sales,20120801, 78.0
-West,Herbal Tea,Lemon,Sales,20120901, 67.0
-West,Herbal Tea,Lemon,Sales,20121001, 52.0
-West,Herbal Tea,Lemon,Sales,20121101, 30.0
-West,Herbal Tea,Lemon,Sales,20121201, 75.0
-West,Herbal Tea,Charmomile,Plan,20120101, 18.0
-West,Herbal Tea,Charmomile,Plan,20120201, 38.0
-West,Herbal Tea,Charmomile,Plan,20120301, 73.0
-West,Herbal Tea,Charmomile,Plan,20120401, 17.0
-West,Herbal Tea,Charmomile,Plan,20120501, 10.0
-West,Herbal Tea,Charmomile,Plan,20120601, 14.0
-West,Herbal Tea,Charmomile,Plan,20120701, 12.0
-West,Herbal Tea,Charmomile,Plan,20120801, 78.0
-West,Herbal Tea,Charmomile,Plan,20120901, 67.0
-West,Herbal Tea,Charmomile,Plan,20121001, 52.0
-West,Herbal Tea,Charmomile,Plan,20121101, 30.0
-West,Herbal Tea,Charmomile,Plan,20121201, 75.0
-West,Herbal Tea,Charmomile,Sales,20120101, 18.0
+West,Coffee,French Roast,Sales,20120301, 18.0
+West,Coffee,French Roast,Sales,20120401, 18.0
+West,Coffee,French Roast,Sales,20120501, 11.0
+West,Coffee,French Roast,Sales,20120601, 68.0
+West,Coffee,French Roast,Sales,20120701, 19.0
+West,Coffee,French Roast,Sales,20120801, 48.0
+West,Coffee,French Roast,Sales,20120901, 48.0
+West,Coffee,French Roast,Sales,20121001, 21.0
+West,Coffee,French Roast,Sales,20121101, 60.0
+West,Coffee,French Roast,Sales,20121201, 70.0
+West,Espresso,Mocha-Java,Plan,20120101, 56.0
+West,Espresso,Mocha-Java,Plan,20120201, 8.0
+West,Espresso,Mocha-Java,Plan,20120301, 52.0
+West,Espresso,Mocha-Java,Plan,20120401, 68.0
+West,Espresso,Mocha-Java,Plan,20120501, 50.0
+West,Espresso,Mocha-Java,Plan,20120601, 85.0
+West,Espresso,Mocha-Java,Plan,20120701, 83.0
+West,Espresso,Mocha-Java,Plan,20120801, 53.0
+West,Espresso,Mocha-Java,Plan,20120901, 3.0
+West,Espresso,Mocha-Java,Plan,20121001, 4.0
+West,Espresso,Mocha-Java,Plan,20121101, 6.0
+West,Espresso,Mocha-Java,Plan,20121201, 89.0
+West,Espresso,Mocha-Java,Sales,20120101, 44.0
+West,Espresso,Mocha-Java,Sales,20120201, 24.0
+West,Espresso,Mocha-Java,Sales,20120301, 54.0
+West,Espresso,Mocha-Java,Sales,20120401, 44.0
+West,Espresso,Mocha-Java,Sales,20120501, 35.0
+West,Espresso,Mocha-Java,Sales,20120601, 51.0
+West,Espresso,Mocha-Java,Sales,20120701, 93.0
+West,Espresso,Mocha-Java,Sales,20120801, 50.0
+West,Espresso,Mocha-Java,Sales,20120901, 78.0
+West,Espresso,Mocha-Java,Sales,20121001, 97.0
+West,Espresso,Mocha-Java,Sales,20121101, 12.0
+West,Espresso,Mocha-Java,Sales,20121201, 22.0
+West,Espresso,Garuda,Plan,20120101, 62.0
+West,Espresso,Garuda,Plan,20120201, 7.0
+West,Espresso,Garuda,Plan,20120301, 23.0
+West,Espresso,Garuda,Plan,20120401, 89.0
+West,Espresso,Garuda,Plan,20120501, 82.0
+West,Espresso,Garuda,Plan,20120601, 53.0
+West,Espresso,Garuda,Plan,20120701, 88.0
+West,Espresso,Garuda,Plan,20120801, 81.0
+West,Espresso,Garuda,Plan,20120901, 59.0
+West,Espresso,Garuda,Plan,20121001, 88.0
+West,Espresso,Garuda,Plan,20121101, 49.0
+West,Espresso,Garuda,Plan,20121201, 77.0
+West,Espresso,Garuda,Sales,20120101, 24.0
+West,Espresso,Garuda,Sales,20120201, 33.0
+West,Espresso,Garuda,Sales,20120301, 61.0
+West,Espresso,Garuda,Sales,20120401, 85.0
+West,Espresso,Garuda,Sales,20120501, 91.0
+West,Espresso,Garuda,Sales,20120601, 79.0
+West,Espresso,Garuda,Sales,20120701, 76.0
+West,Espresso,Garuda,Sales,20120801, 85.0
+West,Espresso,Garuda,Sales,20120901, 61.0
+West,Espresso,Garuda,Sales,20121001, 14.0
+West,Espresso,Garuda,Sales,20121101, 22.0
+West,Espresso,Garuda,Sales,20121201, 16.0
+West,Espresso,Italian Roast,Plan,20120101, 59.0
+West,Espresso,Italian Roast,Plan,20120201, 40.0
+West,Espresso,Italian Roast,Plan,20120301, 51.0
+West,Espresso,Italian Roast,Plan,20120401, 84.0
+West,Espresso,Italian Roast,Plan,20120501, 77.0
+West,Espresso,Italian Roast,Plan,20120601, 71.0
+West,Espresso,Italian Roast,Plan,20120701, 23.0
+West,Espresso,Italian Roast,Plan,20120801, 82.0
+West,Espresso,Italian Roast,Plan,20120901, 48.0
+West,Espresso,Italian Roast,Plan,20121001, 92.0
+West,Espresso,Italian Roast,Plan,20121101, 75.0
+West,Espresso,Italian Roast,Plan,20121201, 98.0
+West,Espresso,Italian Roast,Sales,20120101, 51.0
+West,Espresso,Italian Roast,Sales,20120201, 62.0
+West,Espresso,Italian Roast,Sales,20120301, 30.0
+West,Espresso,Italian Roast,Sales,20120401, 61.0
+West,Espresso,Italian Roast,Sales,20120501, 45.0
+West,Espresso,Italian Roast,Sales,20120601, 5.0
+West,Espresso,Italian Roast,Sales,20120701, 33.0
+West,Espresso,Italian Roast,Sales,20120801, 73.0
+West,Espresso,Italian Roast,Sales,20120901, 99.0
+West,Espresso,Italian Roast,Sales,20121001, 94.0
+West,Espresso,Italian Roast,Sales,20121101, 17.0
+West,Espresso,Italian Roast,Sales,20121201, 6.0
+West,Espresso,Arabian,Plan,20120101, 79.0
+West,Espresso,Arabian,Plan,20120201, 44.0
+West,Espresso,Arabian,Plan,20120301, 8.0
+West,Espresso,Arabian,Plan,20120401, 32.0
+West,Espresso,Arabian,Plan,20120501, 83.0
+West,Espresso,Arabian,Plan,20120601, 80.0
+West,Espresso,Arabian,Plan,20120701, 48.0
+West,Espresso,Arabian,Plan,20120801, 55.0
+West,Espresso,Arabian,Plan,20120901, 97.0
+West,Espresso,Arabian,Plan,20121001, 28.0
+West,Espresso,Arabian,Plan,20121101, 40.0
+West,Espresso,Arabian,Plan,20121201, 19.0
+West,Espresso,Arabian,Sales,20120101, 72.0
+West,Espresso,Arabian,Sales,20120201, 30.0
+West,Espresso,Arabian,Sales,20120301, 56.0
+West,Espresso,Arabian,Sales,20120401, 91.0
+West,Espresso,Arabian,Sales,20120501, 50.0
+West,Espresso,Arabian,Sales,20120601, 13.0
+West,Espresso,Arabian,Sales,20120701, 47.0
+West,Espresso,Arabian,Sales,20120801, 62.0
+West,Espresso,Arabian,Sales,20120901, 11.0
+West,Espresso,Arabian,Sales,20121001, 26.0
+West,Espresso,Arabian,Sales,20121101, 14.0
+West,Espresso,Arabian,Sales,20121201, 66.0
+West,Herbal Tea,Lemon,Plan,20120101, 99.0
+West,Herbal Tea,Lemon,Plan,20120201, 7.0
+West,Herbal Tea,Lemon,Plan,20120301, 99.0
+West,Herbal Tea,Lemon,Plan,20120401, 99.0
+West,Herbal Tea,Lemon,Plan,20120501, 28.0
+West,Herbal Tea,Lemon,Plan,20120601, 69.0
+West,Herbal Tea,Lemon,Plan,20120701, 32.0
+West,Herbal Tea,Lemon,Plan,20120801, 81.0
+West,Herbal Tea,Lemon,Plan,20120901, 27.0
+West,Herbal Tea,Lemon,Plan,20121001, 71.0
+West,Herbal Tea,Lemon,Plan,20121101, 44.0
+West,Herbal Tea,Lemon,Plan,20121201, 57.0
+West,Herbal Tea,Lemon,Sales,20120101, 82.0
+West,Herbal Tea,Lemon,Sales,20120201, 99.0
+West,Herbal Tea,Lemon,Sales,20120301, 62.0
+West,Herbal Tea,Lemon,Sales,20120401, 83.0
+West,Herbal Tea,Lemon,Sales,20120501, 36.0
+West,Herbal Tea,Lemon,Sales,20120601, 74.0
+West,Herbal Tea,Lemon,Sales,20120701, 97.0
+West,Herbal Tea,Lemon,Sales,20120801, 73.0
+West,Herbal Tea,Lemon,Sales,20120901, 30.0
+West,Herbal Tea,Lemon,Sales,20121001, 33.0
+West,Herbal Tea,Lemon,Sales,20121101, 68.0
+West,Herbal Tea,Lemon,Sales,20121201, 21.0
+West,Herbal Tea,Charmomile,Plan,20120101, 62.0
+West,Herbal Tea,Charmomile,Plan,20120201, 99.0
+West,Herbal Tea,Charmomile,Plan,20120301, 56.0
+West,Herbal Tea,Charmomile,Plan,20120401, 92.0
+West,Herbal Tea,Charmomile,Plan,20120501, 75.0
+West,Herbal Tea,Charmomile,Plan,20120601, 68.0
+West,Herbal Tea,Charmomile,Plan,20120701, 3.0
+West,Herbal Tea,Charmomile,Plan,20120801, 68.0
+West,Herbal Tea,Charmomile,Plan,20120901, 27.0
+West,Herbal Tea,Charmomile,Plan,20121001, 13.0
+West,Herbal Tea,Charmomile,Plan,20121101, 12.0
+West,Herbal Tea,Charmomile,Plan,20121201, 89.0
+West,Herbal Tea,Charmomile,Sales,20120101, 25.0
 West,Herbal Tea,Charmomile,Sales,20120201, 38.0
-West,Herbal Tea,Charmomile,Sales,20120301, 73.0
-West,Herbal Tea,Charmomile,Sales,20120401, 17.0
-West,Herbal Tea,Charmomile,Sales,20120501, 10.0
-West,Herbal Tea,Charmomile,Sales,20120601, 14.0
-West,Herbal Tea,Charmomile,Sales,20120701, 12.0
-West,Herbal Tea,Charmomile,Sales,20120801, 78.0
-West,Herbal Tea,Charmomile,Sales,20120901, 67.0
-West,Herbal Tea,Charmomile,Sales,20121001, 52.0
-West,Herbal Tea,Charmomile,Sales,20121101, 30.0
-West,Herbal Tea,Charmomile,Sales,20121201, 75.0
-West,Herbal Tea,Mint,Plan,20120101, 18.0
-West,Herbal Tea,Mint,Plan,20120201, 38.0
-West,Herbal Tea,Mint,Plan,20120301, 73.0
-West,Herbal Tea,Mint,Plan,20120401, 17.0
-West,Herbal Tea,Mint,Plan,20120501, 10.0
-West,Herbal Tea,Mint,Plan,20120601, 14.0
-West,Herbal Tea,Mint,Plan,20120701, 12.0
-West,Herbal Tea,Mint,Plan,20120801, 78.0
-West,Herbal Tea,Mint,Plan,20120901, 67.0
-West,Herbal Tea,Mint,Plan,20121001, 52.0
-West,Herbal Tea,Mint,Plan,20121101, 30.0
-West,Herbal Tea,Mint,Plan,20121201, 75.0
-West,Herbal Tea,Mint,Sales,20120101, 18.0
-West,Herbal Tea,Mint,Sales,20120201, 38.0
-West,Herbal Tea,Mint,Sales,20120301, 73.0
-West,Herbal Tea,Mint,Sales,20120401, 17.0
-West,Herbal Tea,Mint,Sales,20120501, 10.0
-West,Herbal Tea,Mint,Sales,20120601, 14.0
-West,Herbal Tea,Mint,Sales,20120701, 12.0
-West,Herbal Tea,Mint,Sales,20120801, 78.0
-West,Herbal Tea,Mint,Sales,20120901, 67.0
-West,Herbal Tea,Mint,Sales,20121001, 52.0
-West,Herbal Tea,Mint,Sales,20121101, 30.0
-West,Herbal Tea,Mint,Sales,20121201, 75.0
-West,Tea,Darjeeling,Plan,20120101, 18.0
-West,Tea,Darjeeling,Plan,20120201, 38.0
-West,Tea,Darjeeling,Plan,20120301, 73.0
-West,Tea,Darjeeling,Plan,20120401, 17.0
-West,Tea,Darjeeling,Plan,20120501, 10.0
-West,Tea,Darjeeling,Plan,20120601, 14.0
-West,Tea,Darjeeling,Plan,20120701, 12.0
-West,Tea,Darjeeling,Plan,20120801, 78.0
-West,Tea,Darjeeling,Plan,20120901, 67.0
-West,Tea,Darjeeling,Plan,20121001, 52.0
-West,Tea,Darjeeling,Plan,20121101, 30.0
-West,Tea,Darjeeling,Plan,20121201, 75.0
-West,Tea,Darjeeling,Sales,20120101, 18.0
-West,Tea,Darjeeling,Sales,20120201, 38.0
-West,Tea,Darjeeling,Sales,20120301, 73.0
-West,Tea,Darjeeling,Sales,20120401, 17.0
-West,Tea,Darjeeling,Sales,20120501, 10.0
-West,Tea,Darjeeling,Sales,20120601, 14.0
-West,Tea,Darjeeling,Sales,20120701, 12.0
-West,Tea,Darjeeling,Sales,20120801, 78.0
-West,Tea,Darjeeling,Sales,20120901, 67.0
-West,Tea,Darjeeling,Sales,20121001, 52.0
-West,Tea,Darjeeling,Sales,20121101, 30.0
-West,Tea,Darjeeling,Sales,20121201, 75.0
-West,Tea,Earl Grey,Plan,20120101, 18.0
-West,Tea,Earl Grey,Plan,20120201, 38.0
-West,Tea,Earl Grey,Plan,20120301, 73.0
-West,Tea,Earl Grey,Plan,20120401, 17.0
-West,Tea,Earl Grey,Plan,20120501, 10.0
-West,Tea,Earl Grey,Plan,20120601, 14.0
-West,Tea,Earl Grey,Plan,20120701, 12.0
-West,Tea,Earl Grey,Plan,20120801, 78.0
-West,Tea,Earl Grey,Plan,20120901, 67.0
-West,Tea,Earl Grey,Plan,20121001, 52.0
-West,Tea,Earl Grey,Plan,20121101, 30.0
-West,Tea,Earl Grey,Plan,20121201, 75.0
-West,Tea,Earl Grey,Sales,20120101, 18.0
-West,Tea,Earl Grey,Sales,20120201, 38.0
-West,Tea,Earl Grey,Sales,20120301, 73.0
-West,Tea,Earl Grey,Sales,20120401, 17.0
-West,Tea,Earl Grey,Sales,20120501, 10.0
+West,Herbal Tea,Charmomile,Sales,20120301, 98.0
+West,Herbal Tea,Charmomile,Sales,20120401, 18.0
+West,Herbal Tea,Charmomile,Sales,20120501, 32.0
+West,Herbal Tea,Charmomile,Sales,20120601, 62.0
+West,Herbal Tea,Charmomile,Sales,20120701, 49.0
+West,Herbal Tea,Charmomile,Sales,20120801, 96.0
+West,Herbal Tea,Charmomile,Sales,20120901, 52.0
+West,Herbal Tea,Charmomile,Sales,20121001, 29.0
+West,Herbal Tea,Charmomile,Sales,20121101, 56.0
+West,Herbal Tea,Charmomile,Sales,20121201, 93.0
+West,Herbal Tea,Mint,Plan,20120101, 32.0
+West,Herbal Tea,Mint,Plan,20120201, 46.0
+West,Herbal Tea,Mint,Plan,20120301, 61.0
+West,Herbal Tea,Mint,Plan,20120401, 34.0
+West,Herbal Tea,Mint,Plan,20120501, 58.0
+West,Herbal Tea,Mint,Plan,20120601, 93.0
+West,Herbal Tea,Mint,Plan,20120701, 11.0
+West,Herbal Tea,Mint,Plan,20120801, 31.0
+West,Herbal Tea,Mint,Plan,20120901, 76.0
+West,Herbal Tea,Mint,Plan,20121001, 81.0
+West,Herbal Tea,Mint,Plan,20121101, 40.0
+West,Herbal Tea,Mint,Plan,20121201, 79.0
+West,Herbal Tea,Mint,Sales,20120101, 75.0
+West,Herbal Tea,Mint,Sales,20120201, 13.0
+West,Herbal Tea,Mint,Sales,20120301, 77.0
+West,Herbal Tea,Mint,Sales,20120401, 39.0
+West,Herbal Tea,Mint,Sales,20120501, 83.0
+West,Herbal Tea,Mint,Sales,20120601, 62.0
+West,Herbal Tea,Mint,Sales,20120701, 98.0
+West,Herbal Tea,Mint,Sales,20120801, 7.0
+West,Herbal Tea,Mint,Sales,20120901, 55.0
+West,Herbal Tea,Mint,Sales,20121001, 98.0
+West,Herbal Tea,Mint,Sales,20121101, 22.0
+West,Herbal Tea,Mint,Sales,20121201, 33.0
+West,Tea,Darjeeling,Plan,20120101, 88.0
+West,Tea,Darjeeling,Plan,20120201, 72.0
+West,Tea,Darjeeling,Plan,20120301, 27.0
+West,Tea,Darjeeling,Plan,20120401, 6.0
+West,Tea,Darjeeling,Plan,20120501, 33.0
+West,Tea,Darjeeling,Plan,20120601, 29.0
+West,Tea,Darjeeling,Plan,20120701, 26.0
+West,Tea,Darjeeling,Plan,20120801, 89.0
+West,Tea,Darjeeling,Plan,20120901, 97.0
+West,Tea,Darjeeling,Plan,20121001, 19.0
+West,Tea,Darjeeling,Plan,20121101, 26.0
+West,Tea,Darjeeling,Plan,20121201, 49.0
+West,Tea,Darjeeling,Sales,20120101, 58.0
+West,Tea,Darjeeling,Sales,20120201, 78.0
+West,Tea,Darjeeling,Sales,20120301, 8.0
+West,Tea,Darjeeling,Sales,20120401, 95.0
+West,Tea,Darjeeling,Sales,20120501, 9.0
+West,Tea,Darjeeling,Sales,20120601, 78.0
+West,Tea,Darjeeling,Sales,20120701, 38.0
+West,Tea,Darjeeling,Sales,20120801, 54.0
+West,Tea,Darjeeling,Sales,20120901, 41.0
+West,Tea,Darjeeling,Sales,20121001, 63.0
+West,Tea,Darjeeling,Sales,20121101, 38.0
+West,Tea,Darjeeling,Sales,20121201, 63.0
+West,Tea,Earl Grey,Plan,20120101, 13.0
+West,Tea,Earl Grey,Plan,20120201, 77.0
+West,Tea,Earl Grey,Plan,20120301, 65.0
+West,Tea,Earl Grey,Plan,20120401, 89.0
+West,Tea,Earl Grey,Plan,20120501, 49.0
+West,Tea,Earl Grey,Plan,20120601, 18.0
+West,Tea,Earl Grey,Plan,20120701, 67.0
+West,Tea,Earl Grey,Plan,20120801, 46.0
+West,Tea,Earl Grey,Plan,20120901, 69.0
+West,Tea,Earl Grey,Plan,20121001, 63.0
+West,Tea,Earl Grey,Plan,20121101, 79.0
+West,Tea,Earl Grey,Plan,20121201, 98.0
+West,Tea,Earl Grey,Sales,20120101, 50.0
+West,Tea,Earl Grey,Sales,20120201, 98.0
+West,Tea,Earl Grey,Sales,20120301, 35.0
+West,Tea,Earl Grey,Sales,20120401, 66.0
+West,Tea,Earl Grey,Sales,20120501, 8.0
 West,Tea,Earl Grey,Sales,20120601, 14.0
-West,Tea,Earl Grey,Sales,20120701, 12.0
-West,Tea,Earl Grey,Sales,20120801, 78.0
-West,Tea,Earl Grey,Sales,20120901, 67.0
-West,Tea,Earl Grey,Sales,20121001, 52.0
-West,Tea,Earl Grey,Sales,20121101, 30.0
-West,Tea,Earl Grey,Sales,20121201, 75.0
-West,Tea,Green Tea,Plan,20120101, 18.0
-West,Tea,Green Tea,Plan,20120201, 38.0
-West,Tea,Green Tea,Plan,20120301, 73.0
-West,Tea,Green Tea,Plan,20120401, 17.0
-West,Tea,Green Tea,Plan,20120501, 10.0
-West,Tea,Green Tea,Plan,20120601, 14.0
-West,Tea,Green Tea,Plan,20120701, 12.0
-West,Tea,Green Tea,Plan,20120801, 78.0
-West,Tea,Green Tea,Plan,20120901, 67.0
-West,Tea,Green Tea,Plan,20121001, 52.0
-West,Tea,Green Tea,Plan,20121101, 30.0
-West,Tea,Green Tea,Plan,20121201, 75.0
-West,Tea,Green Tea,Sales,20120101, 18.0
-West,Tea,Green Tea,Sales,20120201, 38.0
-West,Tea,Green Tea,Sales,20120301, 73.0
-West,Tea,Green Tea,Sales,20120401, 17.0
-West,Tea,Green Tea,Sales,20120501, 10.0
-West,Tea,Green Tea,Sales,20120601, 14.0
-West,Tea,Green Tea,Sales,20120701, 12.0
-West,Tea,Green Tea,Sales,20120801, 78.0
-West,Tea,Green Tea,Sales,20120901, 67.0
-West,Tea,Green Tea,Sales,20121001, 52.0
-West,Tea,Green Tea,Sales,20121101, 30.0
-West,Tea,Green Tea,Sales,20121201, 75.0
+West,Tea,Earl Grey,Sales,20120701, 28.0
+West,Tea,Earl Grey,Sales,20120801, 41.0
+West,Tea,Earl Grey,Sales,20120901, 3.0
+West,Tea,Earl Grey,Sales,20121001, 33.0
+West,Tea,Earl Grey,Sales,20121101, 50.0
+West,Tea,Earl Grey,Sales,20121201, 57.0
+West,Tea,Green Tea,Plan,20120101, 40.0
+West,Tea,Green Tea,Plan,20120201, 11.0
+West,Tea,Green Tea,Plan,20120301, 6.0
+West,Tea,Green Tea,Plan,20120401, 93.0
+West,Tea,Green Tea,Plan,20120501, 17.0
+West,Tea,Green Tea,Plan,20120601, 5.0
+West,Tea,Green Tea,Plan,20120701, 37.0
+West,Tea,Green Tea,Plan,20120801, 71.0
+West,Tea,Green Tea,Plan,20120901, 36.0
+West,Tea,Green Tea,Plan,20121001, 67.0
+West,Tea,Green Tea,Plan,20121101, 53.0
+West,Tea,Green Tea,Plan,20121201, 27.0
+West,Tea,Green Tea,Sales,20120101, 46.0
+West,Tea,Green Tea,Sales,20120201, 31.0
+West,Tea,Green Tea,Sales,20120301, 9.0
+West,Tea,Green Tea,Sales,20120401, 97.0
+West,Tea,Green Tea,Sales,20120501, 29.0
+West,Tea,Green Tea,Sales,20120601, 77.0
+West,Tea,Green Tea,Sales,20120701, 80.0
+West,Tea,Green Tea,Sales,20120801, 90.0
+West,Tea,Green Tea,Sales,20120901, 95.0
+West,Tea,Green Tea,Sales,20121001, 43.0
+West,Tea,Green Tea,Sales,20121101, 11.0
+West,Tea,Green Tea,Sales,20121201, 8.0
