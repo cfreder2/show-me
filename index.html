@@ -11,15 +11,6 @@
 				font-family: sans-serif;
 				font-size: 14px;                
             }
-            .legend{
-                font-size: 12px;
-            }
-            path{
-                stroke: black;
-            }
-            #wijk, #map{
-                float:left;
-            }
             .axis path,
 			.axis line {
 				fill: none;
@@ -35,9 +26,7 @@
 	</head>
 	<body>        
 		<script>
-            d3.json("data/data.js", function(data) {
-                console.log(data);
-            });
+            draw();
 		</script>
  
  	</body>
