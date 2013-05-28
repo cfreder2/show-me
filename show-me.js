@@ -1,6 +1,6 @@
 function monthlySales() {
 //Examples: http://www.jeromecukier.net/stuff/data%20example/data-example4.html
-//and: http://bl.ocks.org/mbostock/3883245
+//and: http://bl.ocks.org/mbostock/3884955
 var width = 500,
     height = 500, 
     margin = 50;
@@ -88,7 +88,7 @@ d3.csv("data/datafile.csv",function(csv) {
     /*g.select("path")
         .data(function(d) {console.log(d.values)}) 
         .attr("class", "line")
-        .attr("d", line);*/
+        .attr("d", line);
         
     //create subgroups for the categories
     var subg = g.selectAll("g")
@@ -103,8 +103,8 @@ d3.csv("data/datafile.csv",function(csv) {
         .data(function(d) {return d.values})
         .attr("class", "line")
         .attr("d", line);
+*/
 
-    /*Mockup that works with displaying rectangles
     g
         .selectAll("g")
         // we are getting the values of the categories like this:
@@ -123,7 +123,7 @@ d3.csv("data/datafile.csv",function(csv) {
         .attr("width", 20)
         .attr("height", function(d) {return d.values.Value / 3})
         .attr("class", function(d) {return d.key;});
-*/
+
 })
 }
 

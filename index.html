@@ -1,36 +1,126 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Show me the numbers</title>
-		<script type="text/javascript" src="../d3/d3.js"></script>
-		<script type="text/javascript" src="../d3/lib/colorbrewer/colorbrewer.js"></script>
-		<script type="text/javascript" src="show-me.js"></script>
-		<style type="text/css">
-            html {
-				font-family: sans-serif;
-				font-size: 14px;                
-            }
-            .axis path,
-			.axis line {
-				fill: none;
-				stroke: black;
-				shape-rendering: crispEdges;
-			}
-			.axis text {
-				font-family: sans-serif;
-				font-size: 11px;
-            }
-            rect {stroke:black;fill:white;}
-            circle {fill:steelblue;opacity:.5;}
-            line {stroke:#ccc;opacity:.8;}
-                                       
-		</style>
-	</head>
-	<body>        
-		<script>
-            monthlySales();
-		</script>
- 
- 	</body>
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+</style>
+<body>
+<script type="text/javascript" src="../d3/d3.js"></script>
+<script>
+
+var margin = {top: 20, right: 80, bottom: 30, left: 50},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var cwidth=300,cheight=100,cmargin=5;
+
+var parseDate = d3.time.format("%Y%m%d").parse;
+
+var x = d3.time.scale()
+    .range([0, cwidth]);
+
+var y = d3.scale.linear()
+    .range([cheight, 0]);
+
+var color = d3.scale.category10();
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+var line = d3.svg.line()
+    .interpolate("basis")
+    .x(function(d) { return x(d.key); })
+    .y(function(d) { return y(d.values.Value); });
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+d3.csv("data/datafile.csv",function(csv) {
+
+//Filter Sales measures
+csv = csv.filter(function (d) {return d.Measure === "Sales"});
+
+//While data is still flat, parse dates
+csv.forEach(function(d) {d.Day = parseDate(d.Day);});
+
+//Nest data for monthly sales charts
+var data=d3.nest()
+    .key(function(d) {return d.Region;})
+    .key(function(d) {return d.Category;})
+    .key(function(d) {return d.Day;})
+    .sortKeys(d3.ascending)
+    .rollup(function(d) {return {Value:d3.sum(d,function(g) {return +g.Value;})};})
+    .entries(csv);
+
+console.log(data);
+
+//Don't know how to get the min and max for the domains, so use constants instead
+//TODO set dynamic domains
+x.domain([parseDate("20120101"), parseDate("20121201")]);
+//x.domain(d3.extent(data[0].values[0].values[0], function(d) { return d.key; }));
+y.domain([0,300]);
+
+console.log(x(parseDate("20121101")));
+
+//Group per Region class="region"
+var region = svg.selectAll(".region")
+    .data(data)
+    .enter()
+    .append("g")
+    .attr("class", "region")
+    .attr("transform",function(d,i) {return "translate(0,"+(cheight*i)+")";});
+
+//Group for Y axis class="y axis"
+//...
+
+//Group per Category class="category"
+var category = region.selectAll(".category")
+    .data(function(d) {return d.values})
+    .enter()
+    .append("g")
+    .attr("class", "category");
+
+category.append("path")
+    .attr("class", "line")
+    .attr("d", function(d) { return line(d.values); });
+
+/* Test for checking date values
+var test = category.selectAll(".test")
+    .data(function(d) {return d.values})
+    .enter()
+    .append("g")
+    .attr("class", "test")
+    .attr("id", function(d) {return d.key});*/
+    
+})
+</script>
+</body>
 </html>
