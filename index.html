@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<title>Show me the numbers</title>
 <style>
 
 body {
@@ -54,7 +55,7 @@ var yAxis = d3.svg.axis()
 
 var line = d3.svg.line()
     .interpolate("basis")
-    .x(function(d) { return x(d.key); })
+    .x(function(d) { return x(parseDate(d.key)); })
     .y(function(d) { return y(d.values.Value); });
 
 var svg = d3.select("body").append("svg")
@@ -67,9 +68,6 @@ d3.csv("data/datafile.csv",function(csv) {
 
 //Filter Sales measures
 csv = csv.filter(function (d) {return d.Measure === "Sales"});
-
-//While data is still flat, parse dates
-csv.forEach(function(d) {d.Day = parseDate(d.Day);});
 
 //Nest data for monthly sales charts
 var data=d3.nest()
@@ -87,8 +85,6 @@ console.log(data);
 x.domain([parseDate("20120101"), parseDate("20121201")]);
 //x.domain(d3.extent(data[0].values[0].values[0], function(d) { return d.key; }));
 y.domain([0,300]);
-
-console.log(x(parseDate("20121101")));
 
 //Group per Region class="region"
 var region = svg.selectAll(".region")
