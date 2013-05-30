@@ -29,11 +29,11 @@ body {
 <script type="text/javascript" src="../d3/d3.js"></script>
 <script>
 
-var margin = {top: 20, right: 80, bottom: 30, left: 50},
+var margin = {top: 20, right: 80, bottom: 30, left: 100},
     width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 400 - margin.top - margin.bottom;
 
-var cwidth=300,cheight=100,cmargin=5;
+var cwidth=400,cheight=100,cmargin=20;
 
 var parseDate = d3.time.format("%Y%m%d").parse;
 
@@ -47,6 +47,7 @@ var color = d3.scale.category10();
 
 var xAxis = d3.svg.axis()
     .scale(x)
+    .tickFormat(d3.time.format("%b"))
     .orient("bottom");
 
 var yAxis = d3.svg.axis()
@@ -57,11 +58,13 @@ var line = d3.svg.line()
     .interpolate("basis")
     .x(function(d) { return x(parseDate(d.key)); })
     .y(function(d) { return y(d.values.Value); });
+    
+var colors = d3.scale.category10();
 
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
-  .append("g")
+    .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 d3.csv("data/datafile.csv",function(csv) {
@@ -78,13 +81,17 @@ var data=d3.nest()
     .rollup(function(d) {return {Value:d3.sum(d,function(g) {return +g.Value;})};})
     .entries(csv);
 
-console.log(data);
-
 //Don't know how to get the min and max for the domains, so use constants instead
 //TODO set dynamic domains
 x.domain([parseDate("20120101"), parseDate("20121201")]);
 //x.domain(d3.extent(data[0].values[0].values[0], function(d) { return d.key; }));
 y.domain([0,300]);
+
+//Group for X axis class="x axis"
+svg.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis);
 
 //Group per Region class="region"
 var region = svg.selectAll(".region")
@@ -92,10 +99,17 @@ var region = svg.selectAll(".region")
     .enter()
     .append("g")
     .attr("class", "region")
-    .attr("transform",function(d,i) {return "translate(0,"+(cheight*i)+")";});
+    .attr("transform",function(d,i) {return "translate(0,"+ +((cheight*i)+cmargin*i)+")";});
 
 //Group for Y axis class="y axis"
-//...
+region.append("g")
+    .attr("class", "y axis")
+    .call(yAxis);
+
+//add text
+region.append("text")
+    .text(function(d) {return d.key})
+    .attr("transform", "translate("+(10 - margin.left)+", "+(cheight/2)+")");    
 
 //Group per Category class="category"
 var category = region.selectAll(".category")
@@ -106,15 +120,10 @@ var category = region.selectAll(".category")
 
 category.append("path")
     .attr("class", "line")
-    .attr("d", function(d) { return line(d.values); });
-
-/* Test for checking date values
-var test = category.selectAll(".test")
-    .data(function(d) {return d.values})
-    .enter()
-    .append("g")
-    .attr("class", "test")
-    .attr("id", function(d) {return d.key});*/
+    .attr("d", function(d) { return line(d.values); })
+    .style("stroke", function(d, i) {
+        return colors(i);
+    });
     
 })
 </script>

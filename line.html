@@ -77,11 +77,9 @@ d3.tsv("data.tsv", function(error, data) {
     };
   });
 
-  //x.domain(d3.extent(data, function(d) { return d.date; }));
-x.domain(d3.extent([parseDate("20120101"), parseDate("20121201")]));
+  x.domain(d3.extent(data, function(d) { return d.date; }));
+  //x.domain(d3.extent([parseDate("20120101"), parseDate("20121201")]));
   
-console.log(x(parseDate("20120601")));
-
   y.domain([
     d3.min(cities, function(c) { return d3.min(c.values, function(v) { return v.temperature; }); }),
     d3.max(cities, function(c) { return d3.max(c.values, function(v) { return v.temperature; }); })
