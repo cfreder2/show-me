@@ -6,6 +6,10 @@
 body {
   font: 10px sans-serif;
 }
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
 
 .axis path,
 .axis line {
@@ -20,30 +24,115 @@ body {
 
 .line {
   fill: none;
-  stroke: steelblue;
   stroke-width: 1.5px;
 }
 
 </style>
 <body>
+    <div id="wrapper">
+        <div id="salesPlan"></div>
+        <div id="monthlySales"></div>
+    </div>
+    
 <script type="text/javascript" src="../d3/d3.js"></script>
 <script>
 
-var margin = {top: 20, right: 80, bottom: 30, left: 100},
-    width = 960 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
-
-var cwidth=400,cheight=100,cmargin=20;
-
 var parseDate = d3.time.format("%Y%m%d").parse;
+
+var color = d3.scale.category10();
+
+/////Sales vs Plan
+var salesPlan = function(data) {
+
+var salesData = data.filter(function (d) {return d.key === "Sales"});
+salesData = salesData[0].values;
+console.log(salesData);
+
+var margin = {top: 10, right: 10, bottom: 10, left: 10},
+    width = 350 - margin.left - margin.right,
+    height = 200 - margin.top - margin.bottom;
+
+var svg = d3.select("#salesPlan").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var x = d3.scale.linear()
+    //.domain([0, d3.max(data, function(d) {return d3.max(d, function(d) {return d.y0 + d.y;});})])
+    .domain([0, 1000])
+    .range([0, width]);
+
+var y = d3.scale.ordinal()
+    //.domain(d3.range(data[0].length))
+    .domain([d3.range(13)])
+    .rangeRoundBands([0, width], 0.05);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+//Group per Category class="category"
+var groups = svg.selectAll(".category")
+    .data(salesData)
+    .enter()
+    .append("g")
+    .attr("class", "category")
+    .style("fill", function(d, i) {
+        return color(i);
+    });
+
+//////////////////////////////////////////////////Proceed:
+
+// Add a rect for each data value
+var rects = groups.selectAll("rect")
+    .data(function(d) { return d.values; })
+    .enter()
+    .append("rect")
+    .attr("y", function(d, i) {
+        return x(i);
+    })
+    .attr("x", function(d) {
+        return y(d.y0 + d.y);
+    })
+    .attr("width", function(d) {
+        return y(
+            d3.max(data, function(d) {
+                return d3.max(d, function(d) {
+                    return d.y0 + d.y;
+                });
+            }) - d.y
+        );
+    })
+    .attr("height", y.rangeBand());
+
+//end function
+}
+
+/////Monthly sales
+var monthlySales = function(data) {
+
+var margin = {top: 20, right: 80, bottom: 30, left: 100},
+    width = 700 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var svg = d3.select("#monthlySales").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var cwidth=500,cheight=120,cmargin=20;
 
 var x = d3.time.scale()
     .range([0, cwidth]);
 
 var y = d3.scale.linear()
     .range([cheight, 0]);
-
-var color = d3.scale.category10();
 
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -58,28 +147,6 @@ var line = d3.svg.line()
     .interpolate("basis")
     .x(function(d) { return x(parseDate(d.key)); })
     .y(function(d) { return y(d.values.Value); });
-    
-var colors = d3.scale.category10();
-
-var svg = d3.select("body").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-d3.csv("data/datafile.csv",function(csv) {
-
-//Filter Sales measures
-csv = csv.filter(function (d) {return d.Measure === "Sales"});
-
-//Nest data for monthly sales charts
-var data=d3.nest()
-    .key(function(d) {return d.Region;})
-    .key(function(d) {return d.Category;})
-    .key(function(d) {return d.Day;})
-    .sortKeys(d3.ascending)
-    .rollup(function(d) {return {Value:d3.sum(d,function(g) {return +g.Value;})};})
-    .entries(csv);
 
 //Don't know how to get the min and max for the domains, so use constants instead
 //TODO set dynamic domains
@@ -90,7 +157,7 @@ y.domain([0,300]);
 //Group for X axis class="x axis"
 svg.append("g")
     .attr("class", "x axis")
-    .attr("transform", "translate(0," + height + ")")
+    .attr("transform", "translate(0," + (cheight+cmargin)* data.length+ ")")
     .call(xAxis);
 
 //Group per Region class="region"
@@ -122,9 +189,36 @@ category.append("path")
     .attr("class", "line")
     .attr("d", function(d) { return line(d.values); })
     .style("stroke", function(d, i) {
-        return colors(i);
+        return color(i);
     });
-    
+//end function
+}
+
+/////Load data
+d3.csv("data/datafile.csv",function(csv) {
+
+//Filter Sales measures
+sales = csv.filter(function (d) {return d.Measure === "Sales"});
+
+//Nest data for monthly sales charts
+var salesData=d3.nest()
+    .key(function(d) {return d.Region;})
+    .key(function(d) {return d.Category;})
+    .key(function(d) {return d.Day;})
+    .sortKeys(d3.ascending)
+    .rollup(function(d) {return {Value:d3.sum(d,function(g) {return +g.Value;})};})
+    .entries(sales);
+
+//Nest data for Sales vs Plan chart
+var salesPlanData=d3.nest()
+    .key(function(d) {return d.Measure;})
+    .key(function(d) {return d.Category;})
+    .key(function(d) {return d.Product;})
+    .rollup(function(d) {return {Value:d3.sum(d,function(g) {return +g.Value;})};})
+    .entries(csv);
+
+salesPlan(salesPlanData);
+monthlySales(salesData);
 })
 </script>
 </body>
