@@ -60,13 +60,14 @@ var svg = d3.select("#salesPlan").append("svg")
 
 var x = d3.scale.linear()
     //.domain([0, d3.max(data, function(d) {return d3.max(d, function(d) {return d.y0 + d.y;});})])
-    .domain([0, 1000])
+    .domain([0, 2000])
     .range([0, width]);
 
 var y = d3.scale.ordinal()
     //.domain(d3.range(data[0].length))
-    .domain([d3.range(13)])
-    .rangeRoundBands([0, width], 0.05);
+    .domain(salesData.map(function(d) { console.log( d.values.key); }))
+    //.domain([d3.range(13)])
+    .rangeRoundBands([0, height], 0.05);
 
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -89,25 +90,14 @@ var groups = svg.selectAll(".category")
 //////////////////////////////////////////////////Proceed:
 
 // Add a rect for each data value
-var rects = groups.selectAll("rect")
+var rects = groups.selectAll(".bar")
     .data(function(d) { return d.values; })
     .enter()
     .append("rect")
-    .attr("y", function(d, i) {
-        return x(i);
-    })
-    .attr("x", function(d) {
-        return y(d.y0 + d.y);
-    })
-    .attr("width", function(d) {
-        return y(
-            d3.max(data, function(d) {
-                return d3.max(d, function(d) {
-                    return d.y0 + d.y;
-                });
-            }) - d.y
-        );
-    })
+    .attr("class", "bar")
+    .attr("x", x(0))
+    .attr("y", function(d) { return y(d.key); })
+    .attr("width",  function(d) {return x(d.values.Value);})
     .attr("height", y.rangeBand());
 
 //end function
