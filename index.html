@@ -47,6 +47,7 @@ var salesPlan = function(data) {
 //Nest data for Sales vs Plan chart
 var salesPlanData=d3.nest()
     .key(function(d) {return d.Measure;})
+    .key(function(d) {return d.Category;})
     .key(function(d) {return d.Product;})
     .rollup(function(d) {return {Value:d3.sum(d,function(g) {return +g.Value;})};})
     .entries(data);
@@ -70,7 +71,8 @@ var x = d3.scale.linear()
     .range([0, width]);
 
 var y = d3.scale.ordinal()
-    .domain(d3.range(salesPlanData.length))
+    //TODO set dynamic domain
+    .domain(d3.range(12))
     .rangeRoundBands([0, height], 0.05);
 
 var xAxis = d3.svg.axis()
@@ -81,17 +83,39 @@ var yAxis = d3.svg.axis()
     .scale(y)
     .orient("left");
     
-// Add a rect for each data value
-var rects = svg.selectAll(".bar")
+// Add a group for each category
+var groups = svg.selectAll(".category")
     .data(salesPlanData)
+    .enter()
+    .append("g")
+    .attr("class", "category")
+    .style("fill", function(d, i) {
+        return color(i);
+    });
+    
+// Add a rect for each data value
+var rects = groups.selectAll(".bar")
+    .data(function(d) {return d.values}, function(k) {return k.key})
     .enter()
     .append("rect")
     .attr("class", "bar")
     .attr("x", x(0))
     .attr("y", function(d, i) { return y(i); })
     .attr("width",  function(d) {return x(d.values.Value);})
-    .attr("height", y.rangeBand());
+    .attr("height", y.rangeBand())
+    .on("click", function(){ sortBars() });
 
+//Sort bars
+var sortBars = function() {
+    rects.selectAll(".bar")
+    .sort(function(a, b) {return d3.ascending(a.values.Value, b.values.Value);})
+    .transition()
+    .delay(function(d, i) {return i * 50;})
+    .duration(1000)
+    .attr("y", function(d, i) {
+                return y(i);
+    });
+}
 //end function
 }
 
