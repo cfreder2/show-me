@@ -9,6 +9,27 @@ body {
 #wrapper {
     width: 800px;
     margin: 0 auto;
+    background: #FEFEF2;
+}
+#header {
+    padding:10px 25px 0 25px;
+}
+h1 {
+    border-bottom:1px #D6D6D6 solid;
+    padding-left:10px;
+}
+
+ul.legend {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+ul.legend li {
+    float:right;
+    padding:20px 5px 0 5px;
+}
+ul.legend li svg{
+    padding:0 2px;
 }
 
 .axis path,
@@ -26,10 +47,17 @@ body {
   fill: none;
   stroke-width: 1.5px;
 }
+rect.chart_background {
+    stroke:#D6D6D6;
+    stroke-width: 0.5;
+    fill: #FFF;
+}
 
 </style>
 <body>
     <div id="wrapper">
+        <div id="header">
+        </div>
         <div id="salesPlan"></div>
         <div id="monthlySales"></div>
     </div>
@@ -38,6 +66,38 @@ body {
 <script>
 
 var parseDate = d3.time.format("%Y%m%d").parse;
+
+/////Legend
+var legend = function(color, colorArray) {
+
+var header = d3.select("#header")
+
+var ul = header.append("ul")
+    .attr("class", "legend")
+    .selectAll("li")
+    .data(colorArray)
+    .enter()
+    .append("li");
+
+var svg = ul.append("svg")
+    .attr("width", 10)
+    .attr("height", 10)
+    .append("rect")
+    .attr("width", 10)
+    .attr("height", 10)
+    .style("fill", function(d) {return color(d)});
+
+var label = ul.append("span").text(function(d) {return d});
+
+var heading = header.append("h1")
+    .text("Sales Review");
+
+//End of function
+}
+
+var legendBlock = function() {
+    alert("yo")
+}
 
 /////Sales vs Plan
 var salesPlan = function(data) {
@@ -48,15 +108,16 @@ var salesPlanData=d3.nest()
     .key(function(d) {return d.Product;})
     .key(function(d) {return d.Category;})
     .rollup(function(d) {return {Value:d3.sum(d,function(g) {return +g.Value;})};})
+    //TODO figure out how to sort the rolled up sum value:
+    //.sortValues(function(a,b) { return parseFloat(a.Value) - parseFloat(b.Value); })
     .entries(data);
 
 salesPlanData = salesPlanData.filter(function (d) {return d.key === "Sales"});
 salesPlanData = salesPlanData[0].values;
-console.log(salesPlanData);
 
-var margin = {top: 10, right: 10, bottom: 10, left: 100};
+var margin = {top: 10, right: 20, bottom: 25, left: 100};
     width = 350 - margin.left - margin.right,
-    height = 200 - margin.top - margin.bottom;
+    height = 220 - margin.top - margin.bottom;
 
 var svg = d3.select("#salesPlan").append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -64,6 +125,12 @@ var svg = d3.select("#salesPlan").append("svg")
 
 var g = svg.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+//Create rectangle with withe background
+g.append("rect")
+    .attr("class", "chart_background")
+    .attr("width",  width)
+    .attr("height", height);
 
 var x = d3.scale.linear()
     //.domain([0, d3.max(data, function(d) {return d3.max(d, function(d) {return d.y0 + d.y;});})])
@@ -73,10 +140,11 @@ var x = d3.scale.linear()
 var y = d3.scale.ordinal()
     //TODO set dynamic domain
     .domain(d3.range(12))
-    .rangeRoundBands([0, height], 0.2);
+    .rangeRoundBands([0, height], 0.35);
 
 var xAxis = d3.svg.axis()
     .scale(x)
+    .ticks(5)
     .orient("bottom");
 
 var yAxis = d3.svg.axis()
@@ -106,13 +174,20 @@ g.selectAll("text")
     .attr("transform", "translate(-6," + y.rangeBand() / 2 + ")")
     .text(function(d) {return d.key;});
 
-//Sort bars
+//Sort bars TODO
 var sortBars = function() {
     rects.selectAll(".bar")
     .sort(function(a, b) {return d3.ascending(a.values[0].values.Value, b.values[0].values.Value);})
     .transition()
     .attr("y", function(d, i) { return y(i); });
 }
+
+//Group for X axis class="x axis"
+g.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + height+ ")")
+    .call(xAxis);
+
 //end function
 }
 
@@ -171,6 +246,12 @@ var region = svg.selectAll(".region")
     .attr("class", "region")
     .attr("transform",function(d,i) {return "translate(0,"+ +((cheight*i)+cmargin*i)+")";});
 
+//Create rectangle with withe background
+region.append("rect")
+    .attr("class", "chart_background")
+    .attr("width",  cwidth)
+    .attr("height", cheight);
+
 //Group for Y axis class="y axis"
 region.append("g")
     .attr("class", "y axis")
@@ -179,7 +260,8 @@ region.append("g")
 //add labels
 region.append("text")
     .text(function(d) {return d.key})
-    .attr("transform", "translate("+(10 - margin.left)+", "+(cheight/2)+")");    
+    .style("text-anchor", "end")
+    .attr("transform", "translate(-40, "+(cheight/2)+")");    
 
 //Group per Category class="category"
 var category = region.selectAll(".category")
@@ -225,6 +307,7 @@ color = d3.scale.category10()
     .domain(colorArray);
     
 //Execute svg drawing functions
+legend(color, colorArray);
 salesPlan(csv);
 monthlySales(salesData);
 
