@@ -7,8 +7,9 @@ body {
   font: 10px sans-serif;
 }
 #wrapper {
-    width: 800px;
+    width: 750px;
     margin: 0 auto;
+    padding: 0 25px;
     background: #FEFEF2;
 }
 #header {
@@ -95,9 +96,6 @@ var heading = header.append("h1")
 //End of function
 }
 
-var legendBlock = function() {
-    alert("yo")
-}
 
 /////Sales vs Plan
 var salesPlan = function(data) {
@@ -115,7 +113,7 @@ var salesPlanData=d3.nest()
 salesPlanData = salesPlanData.filter(function (d) {return d.key === "Sales"});
 salesPlanData = salesPlanData[0].values;
 
-var margin = {top: 10, right: 20, bottom: 25, left: 100};
+var margin = {top: 20, right: 20, bottom: 25, left: 100};
     width = 350 - margin.left - margin.right,
     height = 220 - margin.top - margin.bottom;
 
@@ -164,6 +162,7 @@ var rects = g.selectAll(".bar")
     .style("fill", function(d) {return color(d.values[0].key);})
     .on("click", function(){ sortBars() });
 
+//Add product names
 g.selectAll("text")
     .data(salesPlanData, function(d) {return d.key})
     .enter()
@@ -188,20 +187,30 @@ g.append("g")
     .attr("transform", "translate(0," + height+ ")")
     .call(xAxis);
 
+//Add title
+svg.append("text")
+    .attr("x", margin.left+(width / 2))
+    .attr("dy", "1em")
+    .style("text-anchor", "middle")
+    .style("font-size", "14px")
+    .style("font-weight", "bold")
+    .text("Sales vs. Plan");
+    
 //end function
 }
 
 /////Monthly sales
 var monthlySales = function(data) {
 
-var margin = {top: 20, right: 80, bottom: 30, left: 100},
+var margin = {top: 30, right: 30, bottom: 30, left: 100},
     width = 700 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 var svg = d3.select("#monthlySales").append("svg")
     .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
+    .attr("height", height + margin.top + margin.bottom);
+
+var g = svg.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var cwidth=500,cheight=120,cmargin=20;
@@ -233,13 +242,13 @@ x.domain([parseDate("20120101"), parseDate("20121201")]);
 y.domain([0,300]);
 
 //Group for X axis class="x axis"
-svg.append("g")
+g.append("g")
     .attr("class", "x axis")
     .attr("transform", "translate(0," + (cheight+cmargin)* data.length+ ")")
     .call(xAxis);
 
 //Group per Region class="region"
-var region = svg.selectAll(".region")
+var region = g.selectAll(".region")
     .data(data)
     .enter()
     .append("g")
@@ -274,6 +283,16 @@ category.append("path")
     .attr("class", "line")
     .attr("d", function(d) { return line(d.values); })
     .style("stroke", function(d) { return color(d.key); });
+
+//Add title
+svg.append("text")
+    .attr("x", margin.left+(width / 2))
+    .attr("dy", "1em")
+    .style("text-anchor", "middle")
+    .style("font-size", "14px")
+    .style("font-weight", "bold")
+    .text("Monthly Sales");
+    
 //end function
 }
 
