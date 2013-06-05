@@ -7,7 +7,7 @@ body {
   font: 10px sans-serif;
 }
 #wrapper {
-    width: 750px;
+    width: 650px;
     margin: 0 auto;
     padding: 0 25px;
     background: #FEFEF2;
@@ -57,8 +57,7 @@ rect.chart_background {
 </style>
 <body>
     <div id="wrapper">
-        <div id="header">
-        </div>
+        <div id="header"></div>
         <div id="salesPlan"></div>
         <div id="monthlySales"></div>
     </div>
@@ -96,6 +95,37 @@ var heading = header.append("h1")
 //End of function
 }
 
+/////Variance to Plan %
+var varPlan = function(data) {
+    
+var margin = {top: 20, right: 30, bottom: 25, left: 20};
+    width = 280 - margin.left - margin.right,
+    height = 220 - margin.top - margin.bottom;
+
+var svg = d3.select("#salesPlan").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+
+var g = svg.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+//Create rectangle with withe background
+g.append("rect")
+    .attr("class", "chart_background")
+    .attr("width",  width)
+    .attr("height", height);
+
+//Add title
+svg.append("text")
+    .attr("x", margin.left+(width / 2))
+    .attr("dy", "1em")
+    .style("text-anchor", "middle")
+    .style("font-size", "14px")
+    .style("font-weight", "bold")
+    .text("Variance to Plan %");
+
+//End of function
+}
 
 /////Sales vs Plan
 var salesPlan = function(data) {
@@ -203,7 +233,7 @@ svg.append("text")
 var monthlySales = function(data) {
 
 var margin = {top: 30, right: 30, bottom: 30, left: 100},
-    width = 700 - margin.left - margin.right,
+    width = 650 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 var svg = d3.select("#monthlySales").append("svg")
@@ -244,7 +274,7 @@ y.domain([0,300]);
 //Group for X axis class="x axis"
 g.append("g")
     .attr("class", "x axis")
-    .attr("transform", "translate(0," + (cheight+cmargin)* data.length+ ")")
+    .attr("transform", "translate(0," + (((cheight+cmargin)* data.length)-cmargin)+ ")")
     .call(xAxis);
 
 //Group per Region class="region"
@@ -329,6 +359,7 @@ color = d3.scale.category10()
 legend(color, colorArray);
 salesPlan(csv);
 monthlySales(salesData);
+varPlan();
 
 //End of data load
 })
