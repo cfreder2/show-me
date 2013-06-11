@@ -247,7 +247,7 @@
            <schema_name/>
            </partitioning>
        <formula><field_name>Value</field_name>
-<formula_string>INT([Rand]*100)</formula_string>
+<formula_string>INT([Rand]*2600*[Factor])</formula_string>
 <value_type>Number</value_type>
 <value_length>-1</value_length>
 <value_precision>-1</value_precision>
@@ -443,20 +443,31 @@
         <length>-1</length>
         <precision>-1</precision>
       </field>
+      <field>
+        <name>Factor</name>
+        <type>Number</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
     </fields>
     <data>
-      <line> <item>Coffee</item><item>Sumatra</item> </line>
-      <line> <item>Coffee</item><item>French Roast</item> </line>
-      <line> <item>Espresso</item><item>Mocha-Java</item> </line>
-      <line> <item>Espresso</item><item>Garuda</item> </line>
-      <line> <item>Espresso</item><item>Italian Roast</item> </line>
-      <line> <item>Espresso</item><item>Arabian</item> </line>
-      <line> <item>Herbal Tea</item><item>Lemon</item> </line>
-      <line> <item>Herbal Tea</item><item>Charmomile</item> </line>
-      <line> <item>Herbal Tea</item><item>Mint</item> </line>
-      <line> <item>Tea</item><item>Darjeeling</item> </line>
-      <line> <item>Tea</item><item>Earl Grey</item> </line>
-      <line> <item>Tea</item><item>Green Tea</item> </line>
+      <line> <item>Coffee</item><item>Sumatra</item><item>0.9</item> </line>
+      <line> <item>Coffee</item><item>French Roast</item><item>0.5</item> </line>
+      <line> <item>Espresso</item><item>Mocha-Java</item><item>1.3</item> </line>
+      <line> <item>Espresso</item><item>Garuda</item><item>1.2</item> </line>
+      <line> <item>Espresso</item><item>Italian Roast</item><item>0.8</item> </line>
+      <line> <item>Espresso</item><item>Arabian</item><item>0.4</item> </line>
+      <line> <item>Herbal Tea</item><item>Lemon</item><item>1.4</item> </line>
+      <line> <item>Herbal Tea</item><item>Charmomile</item><item>1.1</item> </line>
+      <line> <item>Herbal Tea</item><item>Mint</item><item>0.7</item> </line>
+      <line> <item>Tea</item><item>Darjeeling</item><item>1</item> </line>
+      <line> <item>Tea</item><item>Earl Grey</item><item>1</item> </line>
+      <line> <item>Tea</item><item>Green Tea</item><item>0.6</item> </line>
+      <line> <item>Coffee</item><item>Columbian</item><item>1.5</item> </line>
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
