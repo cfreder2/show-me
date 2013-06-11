@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>Show me the numbers</title>
+<title>Show Me the Numbers</title>
 <style>
 
 body {
-  font: 10px sans-serif;
+  font: 11px sans-serif;
 }
 #wrapper {
     width: 650px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 0 25px;
     background: #FEFEF2;
 }
@@ -32,6 +32,16 @@ ul.legend li {
 ul.legend li svg{
     padding:0 2px;
 }
+#footer {
+    text-align: center;
+    margin:0 25px;
+    padding:0 25px 10px 25px;
+    color:#555;
+    border-top:1px #D6D6D6 solid;
+}
+a {
+    color:#555;
+}
 
 .axis path,
 .axis line,
@@ -40,11 +50,9 @@ line {
   stroke: #000;
   shape-rendering: crispEdges;
 }
-
 .x.axis path {
   display: none;
 }
-
 .line {
   fill: none;
   stroke-width: 1.5px;
@@ -61,7 +69,10 @@ rect.chart_background {
         <div id="header"></div>
         <div id="salesPlan"></div>
         <div id="monthlySales"></div>
-        <div id="footer">TODO</div>
+        <div id="footer">
+            <p>By <a href="http://www.twitter.com/pberden" >Paul Berden</a> - Reproduction of the cover image of Stephen Fews book "<a href="http://www.amazon.com/gp/product/0970601972/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0970601972&linkCode=as2&tag=bourlo-20">Show Me the Numbers</a><img src="http://www.assoc-amazon.com/e/ir?t=bourlo-20&l=as2&o=1&a=0970601972" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />"<br />
+            Made with <a href="http://www.d3js.org">D3.js</a> - Fork me on <a href="http://www.github.com/pberden/show-me">GitHub</a></p>
+        </div>
     </div>
     
 <script type="text/javascript" src="../d3/d3.js"></script>
@@ -126,9 +137,12 @@ svg.append("text")
     .style("font-weight", "bold")
     .text("Variance to Plan %");
 
+//Function to calculate the variance of Sales vs Plan: (sales-plan)/plan
+var variance = function(d) { return 100*(d.values[0].values[1].values.Value - d.values[0].values[0].values.Value)/d.values[0].values[0].values.Value };
+
 //Scales
-//TODO set dynamic domains
-var x0 = 60//Math.max(-d3.min(data), d3.max(data));
+//does not work: var x0 = Math.max(-d3.min(function(d) {return variance(d)}), d3.max(function(d) {return variance(d)}));
+var x0 = 40;
 
 var x = d3.scale.linear()
     .domain([-x0, x0])
@@ -150,10 +164,9 @@ var rects = g.selectAll(".bar")
     .enter()
     .append("rect")
     .attr("class", "bar")
-    //(sales-plan)/sales
-    .attr("x", function(d) { return x(Math.min(0, 100*(d.values[0].values[1].values.Value - d.values[0].values[0].values.Value)/d.values[0].values[1].values.Value)); })
+    .attr("x", function(d) { return x(Math.min(0, variance(d))); })
     .attr("y", function(d, i) { return y(i); })
-    .attr("width", function(d) { return Math.abs(x(100*(d.values[0].values[1].values.Value - d.values[0].values[0].values.Value)/d.values[0].values[1].values.Value) - x(0)); })
+    .attr("width", function(d) { return Math.abs(x(variance(d)) - x(0)); })
     .attr("height", y.rangeBand())
     .style("fill", function(d) {return color(d.values[0].key);});
 
@@ -199,7 +212,6 @@ g.append("rect")
 //Scales
 //TODO set dynamic domains
 var x = d3.scale.linear()
-    //.domain([0, d3.max(data, function(d) {return d3.max(d, function(d) {return d.y0 + d.y;});})])
     .domain([0, 80000])
     .range([0, width]);
 
@@ -308,7 +320,6 @@ var line = d3.svg.line()
 //Don't know how to get the min and max for the domains, so use constants instead
 //TODO set dynamic domains
 x.domain([parseDate("20120101"), parseDate("20121201")]);
-//x.domain(d3.extent(data[0].values[0].values[0], function(d) { return d.key; }));
 y.domain([0,8000]);
 
 //Group for X axis class="x axis"
@@ -357,6 +368,7 @@ category.append("path")
 //Add title
 svg.append("text")
     .attr("x", margin.left+(width / 2))
+    .attr("y", 10)
     .attr("dy", "1em")
     .style("text-anchor", "middle")
     .style("font-size", "14px")
@@ -404,8 +416,6 @@ for (var i=0;i<category.length;i++)
 { colorArray.push(category[i].key) }
 colorArray.reverse();
 
-//color = d3.scale.category10()
-    //.domain(colorArray);
 color = d3.scale.ordinal()
     .domain(colorArray)
     .range(["#F9B0CE", "#62C06A", "#F9AE74", "#5CA9DF"]);
